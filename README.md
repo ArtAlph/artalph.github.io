@@ -1,2 +1,2 @@
-# artalph.github.io
+# artalph.com
 Artalph - Articulatory Phonetic Alphabet
