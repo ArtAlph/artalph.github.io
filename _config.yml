@@ -1,0 +1,24 @@
+theme: minima
+
+baseurl: "/" # the subpath of your site, e.g. /blog
+# url: "http://artalph.github.io" # the base hostname & protocol for your site
+permalink: /:title
+twitter_username: artalph
+github_username:  artalph
+
+title: Artalph - Articulatory Phonetic Alphabet
+
+description: Artalph is a system of phonetic signs that includes symbols functioning as didactic software and characters operating as a font.
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  ignore:
+    envs: [local]
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "post"
