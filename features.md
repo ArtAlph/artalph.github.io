@@ -42,6 +42,6 @@ recognizable way: an enlarged character marks a stressed sound, a lengthened cha
 words can be indicated by spacing or by the vertical bars used in [IPA][3]. The characters in syllabic units, 
 on the other hand, are linked with a horizontal line at the bottom to emphasize their unity.
 
-[1]: /signs#Artalph%20Inventory "Artalph Inventory"
-[2]: /signs#Artalph%20Characters "Artalph Characters"
+[1]: /signs#artalph-inventory "Artalph Inventory"
+[2]: /signs#artalph-characters "Artalph Characters"
 [3]: https://www.internationalphoneticassociation.org/content/ipa-chart "The International Phonetic Alphabet and the IPA Chart"
