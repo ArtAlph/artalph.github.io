@@ -11,11 +11,11 @@ title: Artalph
 description: Artalph is a system of phonetic signs that includes symbols functioning as didactic software and characters operating as a font.
 
 header_pages:
- - index.md
- - features.md
- - features.md
- - apps.md
- - contacts.md
+  - index.md
+  - features.md
+  - features.md
+  - apps.md
+  - contacts.md
 
 compress_html:
   clippings: all
