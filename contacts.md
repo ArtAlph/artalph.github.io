@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contacts
+order: 5
 ---
 
 Please write to [Dr. Sonina][1] at <soninas@gmail.com>
