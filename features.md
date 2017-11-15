@@ -2,6 +2,7 @@
 layout: page
 title: Main features
 description: Description of Articulatory Phonetic Alphabet
+order: 2
 ---
 
 # Description of Articulatory Phonetic Alphabet
