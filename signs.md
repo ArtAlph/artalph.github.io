@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Artalph signs
+order: 3
 ---
 
 ## Reproduction of Artalph
