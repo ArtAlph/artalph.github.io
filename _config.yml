@@ -3,6 +3,8 @@ theme: minima
 baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "http://artalph.github.io" # the base hostname & protocol for your site
 permalink: /:title
+email: soninas@gmail.com
+author: Snejina Sonina
 twitter_username: artalph
 github_username:  artalph
 
