@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Artalph -- Articulatory Phonetic Alphabet
-order: 0
+title: Artalph - Articulatory Phonetic Alphabet
+order: 1
 ---
 
 Artalph is a system of phonetic **signs** that includes **symbols** functioning as didactic software and **characters**
