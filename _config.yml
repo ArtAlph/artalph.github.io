@@ -18,6 +18,9 @@ header_pages:
   - signs.md
   - apps.md
   - contacts.md
+  
+sass:
+  style: compressed
 
 compress_html:
   clippings: all
