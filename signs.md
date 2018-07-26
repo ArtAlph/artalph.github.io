@@ -15,11 +15,11 @@ See <http://creativecommons.org/licenses/by-nc-nd/3.0/legalcode> for the complet
 
 Attribution:
 
-> Articulatory Phonetic Alphabet, <https://artalph.com>, is made available under a 
+> Articulatory Phonetic Alphabet, <{{ site.url }}>, is made available under a 
 > Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported licence in respect of 
 > the Articulatory Phonetic Alphabet as a Work, and in respect of each character and symbol 
 > as a distinct individual Work. Copyright © 2013 Snejina Sonina. Extended licences 
-> available as expressly authorized in writing by Snejina Sonina, <soninas@gmail.com>
+> available as expressly authorized in writing by Snejina Sonina, <{{ site.email }}>
 
 ## Artalph Characters
 
