@@ -23,7 +23,7 @@ Attribution:
 
 ## Artalph Characters
 
-PDF file with the first version of Pictographic Phonetic Alphabet is [here](docs/sonina.artalph.pdf).
+PDF file with the first version of Pictographic Phonetic Alphabet is [here](/docs/sonina.artalph.pdf).
 
 New signs are under development.
 
