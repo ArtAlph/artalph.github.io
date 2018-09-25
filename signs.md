@@ -23,8 +23,10 @@ Attribution:
 
 ## Artalph Characters
 
-Under development
+PDF file with the first version of Pictographic Phonetic Alphabet is [here](docs/sonina.artalph.pdf).
+
+New signs are under development.
 
 ## Artalph Inventory
 
-Under development
+Under development.
