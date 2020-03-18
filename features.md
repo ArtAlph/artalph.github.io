@@ -7,7 +7,7 @@ order: 2
 
 # Description of Articulatory Phonetic Alphabet
 
-## A novel structural principle (see [Artalph Inventory][1])
+## A novel structural principle (see&nbsp;[Artalph&nbsp;Inventory][1])
 
 The Artalph **characters** represent *phonemes*, linguistically distinctive sounds characterised by a particular set of 
 *phonological features*. Yet these signs are not chosen arbitrarily but are composed of **symbols** that represent these 
@@ -19,7 +19,7 @@ Thus, on the level of its symbol inventory, Artalph is a writing system based on
 comparable systems; for example, the International Phonetic Alphabet ([IPA][3]) is based on the principal of *one sign 
 for one sound*.
 
-## A new type of alphabetic sign (see [Artalph Characters][2])
+## A new type of alphabetic sign (see&nbsp;[Artalph&nbsp;Characters][2])
 
 The main novelty of Artalph consists in a new way of sound representation, one based on the sound *articulation*. 
 The Artalph composite characters are best described as stylized pictograms of the human articulatory apparatus.
@@ -35,7 +35,7 @@ features necessary for the description and articulation of the represented sound
 whereas the use of conventional pictures requires several representations to describe one sound, not to mention 
 the many phonetic characteristics that cannot be captured by a realistic picture.
 
-## A novel approach to suprasegmental marks (see SUPRASEGMETALS in [Artalph Inventory][1])
+## A novel approach to suprasegmental marks (see&nbsp;SUPRASEGMETALS&nbsp;in&nbsp;[Artalph&nbsp;Inventory][1])
 
 To mark stress or length, Artalph does not require the addition of extra symbols. Instead, the pictographic nature 
 of this new alphabet’s signs allows for the changing of a character’s form itself in a logical and visually 
