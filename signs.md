@@ -4,7 +4,7 @@ title: Artalph signs
 order: 3
 ---
 
-## Reproduction of Artalph
+## Reproduction of {{ site.title }}
 
 The Articulatory Phonetic Alphabet as a Work, and each of the Articulatory Phonetic Alphabet characters 
 and symbols as individual Works, are copyright © 2013 by Snejina Sonina. As of June 2013, they are made 
@@ -21,12 +21,12 @@ Attribution:
 > as a distinct individual Work. Copyright © 2013 Snejina Sonina. Extended licences 
 > available as expressly authorized in writing by Snejina Sonina, <{{ site.email }}>
 
-## Artalph Characters
+## {{ site.title }} Characters
 
 PDF file with the first version of Pictographic Phonetic Alphabet is [here](/docs/sonina.artalph.pdf).
 
 New signs are under development.
 
-## Artalph Inventory
+## {{ site.title }} Inventory
 
 Under development.
