@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Main features
-description: Description of Articulatory Phonetic Alphabet
+description: Description of Pictographic Phonetic Alphabet
 order: 2
 ---
 
-# Description of Articulatory Phonetic Alphabet
+# Description of {{ site.longtitle }}
 
 ## A novel structural principle (see&nbsp;[{{ site.title }}&nbsp;Inventory][1])
 
