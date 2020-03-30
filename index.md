@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Artalph - Articulatory Phonetic Alphabet
+title: PPA - Pictographic Phonetic Alphabet
 order: 1
 ---
 
