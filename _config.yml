@@ -1,16 +1,16 @@
 theme: minima
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: https://artalph.github.io # "http://artalph.com" # the base hostname & protocol for your site
+url: https://stomabet.github.io # "http://artalph.com" # the base hostname & protocol for your site
 permalink: /:title
 email: soninas@gmail.com
 author: Snejina Sonina
 twitter_username: artalph
 github_username:  artalph
 
-title: Artalph
+title: PPA
 
-description: Artalph is a system of phonetic signs that includes symbols functioning as didactic software and characters operating as a font.
+description: PPA is a system of phonetic signs that includes symbols functioning as didactic software and characters operating as a font.
 
 header_pages:
   #- index.md
