@@ -1,1 +1,1 @@
-# [Artalph - Articulatory Phonetic Alphabet](https://artalph.github.io)
+# [PPA – Pictographic Phonetic Alphabet](https://stomabet.github.io)
