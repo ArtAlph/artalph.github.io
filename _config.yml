@@ -1,12 +1,12 @@
 theme: minima
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: https://stomabet.github.io # "http://artalph.com" # the base hostname & protocol for your site
+url: https://ppa4ipa.github.io # "http://artalph.com" # the base hostname & protocol for your site
 permalink: /:title
 email: soninas@gmail.com
 author: Snejina Sonina
 twitter_username: artalph
-github_username:  stomabet
+github_username:  ppa4ipa
 
 title: PPA
 longtitle: Pictographic Phonetic Alphabet
