@@ -1,7 +1,7 @@
 theme: minima
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: https://ppa4ipa.github.io # "http://artalph.com" # the base hostname & protocol for your site
+url: https://ppa4ipa.com # "http://artalph.com" # the base hostname & protocol for your site
 permalink: /:title
 email: soninas@gmail.com
 author: Snejina Sonina
