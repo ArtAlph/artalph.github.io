@@ -1,6 +1,6 @@
 The Creative Commons License BY-NC-ND
 
-Copyright (c) 2017 ArtAlph
+Copyright (c) 2020 ppa4ipa.com
 
 They are all licensed under "Attribution-NonCommercial-NoDerivs 3.0 Unported" Creative Commons:
 	http://creativecommons.org/licenses/by-nc-nd/3.0/
