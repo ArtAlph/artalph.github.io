@@ -1,0 +1,80 @@
+{
+  "nothing": {
+    "title": "nothing",
+    "height": "55",
+    "styles": ["boldLine", "blackLine"],
+    "base": "<line id=\"hr\" class=\"blackLine boldLine\" x1=\"0\" y1=\"4\" x2=\"200\" y2=\"4\"/><use y=\"47\" xlink:href=\"#hr\"/>",
+    "transform": "scale(0.65) translate(55 4)"
+  },
+  "plosive": {
+    "title": "plosive",
+    "height": "40",
+    "styles": ["arrow", "arrowTail"],
+    "base": "<g id=\"halfPlosive\"><g class=\"arrowTail\"><line x1=\"19\" y1=\"20\" x2=\"90\" y2=\"20\"/><line x1=\"90\" y1=\"0\" x2=\"90\" y2=\"40\"/></g><polygon points=\"20,10 20,30 0,20\" class=\"arrow\"/></g><use xlink:href=\"#halfPlosive\" transform=\"rotate(180 100 20)\"/>",
+    "abase": "<g viewBox=\"0,0,200,40\" width=\"100%\" height=\"100%\"><g id=\"halfPlosive\"><g class=\"arrowTail\"><line x1=\"100\" y1=\"-36\" x2=\"100\" y2=\"10\"/><line x1=\"35\" y1=\"10\" x2=\"165\" y2=\"10\"/></g><polygon points=\"90,-35 100,-55 110,-35\" class=\"arrow\"/></g><use xlink:href=\"#halfPlosive\" href=\"#halfPlosive\" transform=\"rotate(180 100 20)\"/></g>",
+    "transform": ""
+  },
+  "trill": {
+    "title": "trill",
+    "height": "55",
+    "styles": ["boldLine", "blackLine", "wave"],
+    "base": "<defs><clipPath id=\"cutoff\"><rect x=\"0.5\" y=\"0\" width=\"199\" height=\"55\"/></clipPath></defs><line id=\"hr\" x1=\"0\" y1=\"4\" x2=\"200\" y2=\"4\" class=\"boldLine blackLine\"/><use y=\"47\" xlink:href=\"#hr\"/><path class=\"wave\" clip-path=\"url(#cutoff)\" d=\"m-48.5 27.5q16.5-27 33 0t33 0t33 0t33 0t33 0t33 0t33 0t33 0\"/>",
+    "transform": "scale(0.7) translate(43)"
+  },
+  "tap": {
+    "title": "tap",
+    "height": "55",
+    "styles": ["arrow", "arrowTail", "boldLine", "blackLine"],
+    "base": "<line class=\"arrowTail\" x1=\"100\" y1=\"7\" x2=\"100\" y2=\"30\"/><polygon points=\"90,28 110,28 100,48\" class=\"arrow\"/><line id=\"hr\" class=\"blackLine boldLine\" x1=\"0\" y1=\"4\" x2=\"200\" y2=\"4\"/><use y=\"47\" xlink:href=\"#hr\"/>",
+    "transform": "scale(0.7) translate(44)"
+  },
+  "fricative": {
+    "title": "fricative",
+    "height": "45",
+    "styles": ["arrow", "arrowTail"],
+    "base": "<g id=\"arrowDoubled\"><line class=\"arrowTail\" x1=\"20\" y1=\"10\" x2=\"120\" y2=\"10\"/><polygon id=\"arrowLeft\" class=\"arrow\" points=\"0,10 33,0 33,20\"/><use xlink:href=\"#arrowLeft\" transform=\"matrix(-1,0,0,1,140,0)\"/></g><use x=\"40\" y=\"25\" xlink:href=\"#arrowDoubled\"/>",
+    "transform": "scale(0.9) translate(21)"
+  },
+  "lateral": {
+    "title": "lateral",
+    "height": "55",
+    "styles": ["bar", "spiral"],
+    "base": "<line id=\"bar\" class=\"bar\" x1=\"63\" y1=\"20\" x2=\"132\" y2=\"20\"/><use x=\"0\" y=\"22\" xlink:href=\"#bar\"/><path id=\"spiral\" class=\"spiral\" d=\"m19 24c-1-3 2-6 5-6c6 0 9 4 9 10c0 7-7 12-14 12c-9 0-15-10-14-19c1-11 12-19 22-17c14 2 22 15 25 48\"/><use xlink:href=\"#spiral\" transform=\"matrix(-1,0,0,1,195,0)\"/>",
+    "transform": "scale(0.8) translate(28)"
+  },
+  "lateral fricative": {
+    "title": "lateral fricative",
+    "height": "55",
+    "styles": ["arrow", "arrowTail", "bar", "spiral"],
+    "base": "<g transform=\"matrix(0.45,0,0,1,55,10)\"><g id=\"arrowDoubled\"><line class=\"arrowTail\" x1=\"20\" y1=\"10\" x2=\"120\" y2=\"10\"/><polygon id=\"arrowLeft\" class=\"arrow\" points=\"0,10 33,0 33,20\"/><use xlink:href=\"#arrowLeft\" transform=\"matrix(-1,0,0,1,140,0)\"/></g><use x=\"40\" y=\"25\" xlink:href=\"#arrowDoubled\"/></g><path id=\"spiral\" class=\"spiral\" d=\"m19 24c-1-3 2-6 5-6c6 0 9 4 9 10c0 7-7 12-14 12c-9 0-15-10-14-19c1-11 12-19 22-17c14 2 22 15 25 48\"/><use xlink:href=\"#spiral\" transform=\"matrix(-1,0,0,1,195,0)\"/>",
+    "transform": "scale(0.8) translate(28)"
+  },
+  "affricate": {
+    "title": "affricate",
+    "height": "50",
+    "styles": ["arrow", "arrowTail"],
+    "base": "<g id=\"halfAffricate\"><g class=\"arrowTail\"><line x1=\"30\" y1=\"13\" x2=\"90\" y2=\"13\"/><line x1=\"20\" y1=\"37\" x2=\"90\" y2=\"37\"/><line x1=\"90\" y1=\"0\" x2=\"90\" y2=\"50\"/></g><polygon points=\"21,27 21,47 0,37\" class=\"arrow\"/></g><use xlink:href=\"#halfAffricate\" transform=\"matrix(-1,0,0,1,200,0)\"/>",
+    "transform": "scale(0.8) translate(26)"
+  },
+  "clicks": {
+    "title": "clicks",
+    "height": "50",
+    "styles": ["arrow", "arrowTail", "symb"],
+    "base": "<g id=\"halfClicks\"><g class=\"arrowTail\"><line x1=\"19\" y1=\"13\" x2=\"85\" y2=\"13\"/><line x1=\"19\" y1=\"37\" x2=\"85\" y2=\"37\"/><line x1=\"85\" y1=\"0\" x2=\"85\" y2=\"50\"/></g><polygon id=\"arrow\" points=\"20,3 20,23 0,13\" class=\"arrow\"/><use y=\"24\" xlink:href=\"#arrow\"/></g><use xlink:href=\"#halfClicks\" transform=\"matrix(-1,0,0,1,200,0)\"/><polygon points=\"96,10 104,10 103,30 97,30\" class=\"symb\"/><circle cx=\"100\" cy=\"37\" r=\"4\" class=\"symb\"/>",
+    "transform": "scale(0.8) translate(26)"
+  },
+  "implosives": {
+    "title": "implosives",
+    "height": "55",
+    "styles": ["arrow", "arrowTail", "spiralBold"],
+    "base": "<g id=\"halfPlosive\"><g class=\"arrowTail\"><line x1=\"19\" y1=\"27.5\" x2=\"80\" y2=\"27.5\"/><line x1=\"80\" y1=\"2.5\" x2=\"80\" y2=\"52.5\"/></g><polygon points=\"20,17.5 20,37.5 0,27.5\" class=\"arrow\"/></g><use xlink:href=\"#halfPlosive\" transform=\"matrix(-1,0,0,1,200,0)\"/><path id=\"spiral\" transform=\"matrix(0.54,0,0,0.53,116.5,28) rotate(95)\" d=\"m19 24c-1-3 2-6 5-6c6 0 9 4 9 10c0 7-7 12-14 12c-9 0-15-10-14-19c1-11 12-19 22-17c14 2 22 15 25 48\" class=\"spiralBold\"/><use xlink:href=\"#spiral\" transform=\"rotate(180,100,27.5)\"/>",
+    "transform": "scale(0.9) translate(11, -5)"
+  },
+  "ejectives": {
+    "title": "ejectives",
+    "height": "50",
+    "styles": ["arrow", "arrowTail", "spiralBold"],
+    "base": "<g id=\"halfEjectives\"><g class=\"arrowTail\"><line x1=\"0\" y1=\"38\" x2=\"63\" y2=\"38\"/><line x1=\"85\" y1=\"26\" x2=\"85\" y2=\"50\"/></g><polygon id=\"arrow\" points=\"62,28 62,48 82,38\" class=\"arrow\"/><path id=\"spiral\" transform=\"matrix(0.54,0,0,0.53,72,0)\" d=\"m19 24c-1-3 2-6 5-6c6 0 9 4 9 10c0 7-7 12-14 12c-9 0-15-10-14-19c1-11 12-19 22-17c14 2 22 15 25 86.5\"  class=\"spiralBold\"/></g><use xlink:href=\"#halfEjectives\" transform=\"matrix(-1,0,0,1,200,0)\"/>",
+    "transform": "scale(0.9) translate(11, -15)"
+  }
+}
