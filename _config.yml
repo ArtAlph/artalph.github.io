@@ -35,6 +35,29 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "post"
+  -
+    scope:
+      path: "signs"
+    values:
+      image: true
+  -
+    scope:
+      path: "signs" # Exclude from sitemap.xml
+    values:
+      sitemap:
+        exclude: "yes"
+  -
+    scope:
+      path: "404.html" # Exclude from sitemap.xml
+    values:
+      sitemap:
+        exclude: "yes"
+  -
+    scope:
+      path: "README.md" # Exclude from sitemap.xml
+    values:
+      sitemap:
+        exclude: "yes"
 
 plugins:
   - jekyll-sitemap
