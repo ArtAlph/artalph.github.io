@@ -1,0 +1,8 @@
+---
+---
+{% assign mode = site.data.mode.trill %}<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 {{ mode.height }}" style="vector-effect: non-scaling-stroke"><title>{{ mode.title }}</title>
+<style type="text/css">
+{% for st in mode.styles %}{{ site.data.style[st] }}
+{% endfor %}</style>
+{{ mode.base }}
+</svg>
