@@ -20,7 +20,7 @@
   "blackLine": ".blackLine {stroke: #000}",
   "wave": ".wave {stroke-width: 6; stroke: #000; fill: none}",
   "symb": ".symb {stroke-width: 0; fill: #000}",
-  "mode": ".mode {fill: #97f765; stroke: #000;}",
-  "out": ".out {stroke-width: 1; fill: none;}",
+  "mode": ".mode {fill: #97f765; stroke: #000}",
+  "out": ".out {stroke-width: 1; fill: none}",
   "supplementaryIndicator": ".supplementaryIndicator {stroke-width: 0; fill: #4682B4}"
 }
