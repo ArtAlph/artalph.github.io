@@ -44,6 +44,11 @@ defaults:
         exclude: "yes" # Exclude from sitemap.xml
   -
     scope:
+      path: "signs/mods/signs"
+    values:
+      layout: mode_sign
+  -
+    scope:
       path: "404.html" # Exclude from sitemap.xml
     values:
       sitemap:
