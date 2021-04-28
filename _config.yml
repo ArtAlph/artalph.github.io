@@ -39,18 +39,9 @@ defaults:
     scope:
       path: "signs"
     values:
-      image: true
-  -
-    scope:
-      path: "signs"
-    values:
       layout: null
-  -
-    scope:
-      path: "signs" # Exclude from sitemap.xml
-    values:
       sitemap:
-        exclude: "yes"
+        exclude: "yes" # Exclude from sitemap.xml
   -
     scope:
       path: "404.html" # Exclude from sitemap.xml
