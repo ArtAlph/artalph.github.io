@@ -2,4 +2,4 @@ User-agent: *
 Disallow:
 Host: ppa4ipa.com
 
-Sitemap: https://ppa4ipa/sitemap.xml
+Sitemap: https://ppa4ipa.com/sitemap.xml
