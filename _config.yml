@@ -42,6 +42,11 @@ defaults:
       image: true
   -
     scope:
+      path: "signs"
+    values:
+      layout: null
+  -
+    scope:
       path: "signs" # Exclude from sitemap.xml
     values:
       sitemap:
