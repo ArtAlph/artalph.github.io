@@ -5,10 +5,10 @@
 <style type="text/css">
 {%- assign styles = "mode, out" | split: ", " %}
 {%- for st in styles %}
-{{ site.data.style[st] }}
+  {{ site.data.style[st] }}
 {%- endfor %}
 {%- for st in mode.styles %}
-{{ site.data.style[st] }}
+  {{ site.data.style[st] }}
 {%- endfor %}
 </style>
 <symbol id="{{ mode.title }}_mode" viewBox="-21,-21,242,62" width="100%" height="100%" class="mode">
