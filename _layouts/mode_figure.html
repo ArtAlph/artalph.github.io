@@ -9,7 +9,11 @@
 <symbol id="{{ mode.title }}_mode" viewBox="-21,-21,242,62" width="100%" height="100%" class="mode">
   <polygon points="0,20 100,-80 200,20 100,120"/>
   <g transform="{{ mode.transform }}">
-  {{ mode.base }}
+  {% if mode.abase %}
+    {{ mode.abase }}
+  {% else %}
+    {{ mode.base }}
+  {% endif %}
   </g>
 </symbol>
 <use xlink:href="#{{ mode.title }}_mode" href="#{{ mode.title }}_mode" class="out" transform="translate(-20 -30) scale(1.2)"/>
