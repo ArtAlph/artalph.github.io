@@ -54,6 +54,11 @@ defaults:
       layout: mode_sign
   -
     scope:
+      path: "signs/diacritics"
+    values:
+      layout: diacritic
+  -
+    scope:
       path: "404.html" # Exclude from sitemap.xml
     values:
       sitemap:
