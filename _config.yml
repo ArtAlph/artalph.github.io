@@ -44,9 +44,9 @@ defaults:
         exclude: "yes" # Exclude from sitemap.xml
   -
     scope:
-      path: "signs/mods"
+      path: "signs/mods/figures"
     values:
-      layout: mode
+      layout: mode_figure
   -
     scope:
       path: "signs/mods/signs"
