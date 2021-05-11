@@ -1,11 +1,11 @@
 theme: minima
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: https://ppa4ipa.com # "http://artalph.com" # the base hostname & protocol for your site
+url: https://ppa4ipa.com # the base hostname & protocol for your site
 permalink: /:title
 email: soninas@gmail.com
 author: Snejina Sonina
-twitter_username: artalph
+twitter_username: ppa4ipa
 github_username:  ppa4ipa
 
 title: PPA
@@ -42,6 +42,11 @@ defaults:
       layout: null
       sitemap:
         exclude: "yes" # Exclude from sitemap.xml
+  -
+    scope:
+      path: "signs/mods"
+    values:
+      layout: mode
   -
     scope:
       path: "signs/mods/signs"
