@@ -1,0 +1,17 @@
+---
+---
+{% assign diacritic = site.data.diacritic[page.slug] %}<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200" style="vector-effect: non-scaling-stroke"><title>{{ diacritic.title }}</title>
+<style type="text/css">
+{% assign styles = "grid, gridCont, text, fadedTeeth, copyright, fadedShape, wave, diacriticSpiral" | split: ", " %}{% for st in styles %}{{ site.data.style[st] }}
+{% endfor %}</style>
+{% if diacritic.defs %}
+<defs>
+{{ diacritic.defs }}
+</defs>{% endif %}
+{{ site.data.grid.consonant }}
+{{ site.data.teeth.fadedConsonant }}
+{{ site.data.alveola.faded }}
+<path d="{{ site.data.shape.consonant }}" class="fadedShape"/>
+{{ diacritic.sign }}
+{{ site.data.copyright }}  
+</svg>
