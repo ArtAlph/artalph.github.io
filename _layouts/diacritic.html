@@ -5,11 +5,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200" style="stroke: #000; fill: none; stroke-width: 6; stroke-linecap: round; vector-effect: non-scaling-stroke">
 <title>{{ diacritic.title }}</title>
 <style type="text/css">
-{% assign styles = "grid, gridCont, text, fadedTeeth, copyright, fadedShape, wave, diacriticSpiral" | split: ", " %}{% for st in styles %}{{ site.data.style[st] }}
-{% endfor %}</style>
+{%- assign styles = "grid, gridCont, text, fadedTeeth, copyright, fadedShape, wave, diacriticSpiral" | split: ", " %}
+{%- for st in styles %}
+  {{ site.data.style[st] }}
+{%- endfor %}
+</style>
 {%- if diacritic.defs %}
 <defs>
-{{ diacritic.defs }}
+  {{ diacritic.defs }}
 </defs>
 {%- endif %}
 {{ basic.grid.consonant }}
