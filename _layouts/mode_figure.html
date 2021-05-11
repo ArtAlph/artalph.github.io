@@ -1,23 +1,24 @@
 ---
 ---
-{% assign mode = site.data.mode[page.slug] %}<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200" style="vector-effect: non-scaling-stroke"><title>{{ mode.title }}</title>
+{% assign mode = site.data.mode[page.slug] %}<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200" style="vector-effect: non-scaling-stroke">
+<title>{{ mode.title }}</title>
 <style type="text/css">
-{%- assign styles = "mode, out" | split: ", " -%}
-{%- for st in styles -%}
+{%- assign styles = "mode, out" | split: ", " %}
+{%- for st in styles %}
 {{ site.data.style[st] }}
-{%- endfor -%}
-{%- for st in mode.styles -%}
+{%- endfor %}
+{%- for st in mode.styles %}
 {{ site.data.style[st] }}
-{%- endfor -%}
+{%- endfor %}
 </style>
 <symbol id="{{ mode.title }}_mode" viewBox="-21,-21,242,62" width="100%" height="100%" class="mode">
   <polygon points="0,20 100,-80 200,20 100,120"/>
   <g transform="{{ mode.transform }}">
-  {%- if mode.abase -%}
+  {%- if mode.abase %}
     {{ mode.abase }}
-  {%- else -%}
+  {%- else %}
     {{ mode.base }}
-  {%- endif -%}
+  {%- endif %}
   </g>
 </symbol>
 <use xlink:href="#{{ mode.title }}_mode" href="#{{ mode.title }}_mode" class="out" transform="translate(-20 -30) scale(1.2)"/>
