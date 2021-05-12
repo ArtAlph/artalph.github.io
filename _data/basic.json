@@ -23,12 +23,10 @@
   },
   "alveola": {
     "default": "<path transform=\"translate(54.5 27.8) scale(0.33)\" d=\"M64,0C48,4 46,16 32,16S16,4 0,0z\" class=\"teeth\"/><path transform=\"translate(160.5 27.8) scale(0.4)\" d=\"M32,0C20,0 26,32 16,32S12,0 0,0z\" class=\"teeth\"/>",
-    "nasal": "<path transform=\"translate(54.5 27.8) scale(0.33)\" d=\"m64 0c-16 4-18 16-32 16s-16-12-32-16z\" class=\"teeth\"/><path transform=\"translate(153.5 27.8) scale(0.4)\" d=\"m32 0c-12 0-6 32-16 32 s-4-32-16-32z\" class=\"teeth\"/>",
+    "nasal": "<path transform=\"translate(54.5 27.8) scale(0.33)\" d=\"M64 0c-16 4-18 16-32 16s-16-12-32-16z\" class=\"teeth\"/><path transform=\"translate(153.5 27.8) scale(0.4)\" d=\"M32 0c-12 0-6 32-16 32 s-4-32-16-32z\" class=\"teeth\"/>",
     "faded": "<path transform=\"translate(54.5 27.8) scale(0.33)\" d=\"M64,0C48,4 46,16 32,16S16,4 0,0z\" class=\"fadedTeeth\"/><path transform=\"translate(160.5 27.8) scale(0.4)\" d=\"M32,0C20,0 26,32 16,32S12,0 0,0z\" class=\"fadedTeeth\"/>",
-    "fadedNasal": "<path transform=\"translate(54.5 27.8) scale(0.33)\" d=\"m64 0c-16 4-18 16-32 16s-16-12-32-16z\" class=\"fadedTeeth\"/><path transform=\"translate(153.5 27.8) scale(0.4)\" d=\"m32 0c-12 0-6 32-16 32 s-4-32-16-32z\" class=\"fadedTeeth\"/>",
+    "fadedNasal": "<path transform=\"translate(54.5 27.8) scale(0.33)\" d=\"M64 0c-16 4-18 16-32 16s-16-12-32-16z\" class=\"fadedTeeth\"/><path transform=\"translate(153.5 27.8) scale(0.4)\" d=\"M32 0c-12 0-6 32-16 32 s-4-32-16-32z\" class=\"fadedTeeth\"/>",
     "nasalVowel": "<ellipse cx=\"159\" cy=\"44\" rx=\"4.6\" ry=\"12.3\" transform=\"rotate(-16 159 44)\" class=\"teeth\"/>",
     "fadedNasalVowel": "<ellipse cx=\"159\" cy=\"44\" rx=\"4.6\" ry=\"12.3\" transform=\"rotate(-16 159 44)\" class=\"fadedTeeth\"/>"
-  },
-  "openingsvgtag": "<svg xmlns=\"https://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" style=\"width: 100%; height: 100%; stroke: #000; fill: none; stroke-width: 6; stroke-linecap: round; vector-effect: non-scaling-stroke;\">",
-  "copyright": "<text x=\"5\" y=\"178\" class=\"copyright\">© ppa4ipa.com</text>"
+  }
 }
