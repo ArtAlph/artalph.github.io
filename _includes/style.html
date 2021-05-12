@@ -2,4 +2,7 @@
 {%- for st in layout.styles %}
   {{ site.data.style[st] }}
 {%- endfor %}
+{%- for st in page.styles %}
+  {{ site.data.style[st] }}
+{%- endfor %}
 </style>
