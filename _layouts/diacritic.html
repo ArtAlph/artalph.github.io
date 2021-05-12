@@ -1,5 +1,7 @@
 ---
 styles: ["grid", "gridCont", "text", "fadedTeeth", "copyright", "fadedShape", "wave", "diacriticSpiral"]
+gridX: "50.25"
+gridY: "25"
 ---
 {%- assign basic = site.data.basic -%}
 {%- assign diacritic = site.data.diacritic[page.slug] -%}
@@ -11,7 +13,7 @@ styles: ["grid", "gridCont", "text", "fadedTeeth", "copyright", "fadedShape", "w
   {{ diacritic.defs }}
 </defs>
 {% endif -%}
-{{ basic.grid.consonant }}
+{% include grid.html -%}
 {{ basic.teeth.fadedConsonant }}
 {{ basic.alveola.faded }}
 <path d="{{ basic.shape.consonant }}" class="fadedShape"/>
