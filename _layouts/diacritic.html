@@ -3,9 +3,9 @@ styles: "grid", "gridCont", "text", "fadedTeeth", "copyright", "fadedShape", "wa
 ---
 {%- assign basic = site.data.basic -%}
 {%- assign diacritic = site.data.diacritic[page.slug] -%}
-{% include opening.html %}
+{% include opening.html -%}
 <title>{{ diacritic.title }}</title>
-{% include style.html %}
+{% include style.html -%}
 {%- if diacritic.defs %}
 <defs>
   {{ diacritic.defs }}
@@ -16,5 +16,5 @@ styles: "grid", "gridCont", "text", "fadedTeeth", "copyright", "fadedShape", "wa
 {{ basic.alveola.faded }}
 <path d="{{ basic.shape.consonant }}" class="fadedShape"/>
 {{ diacritic.sign }} 
-{% include copyright.html %}
+{% include copyright.html -%}
 </svg>
