@@ -1,15 +1,11 @@
 ---
+styles: "grid", "gridCont", "text", "fadedTeeth", "copyright", "fadedShape", "wave", "diacriticSpiral"
 ---
 {%- assign basic = site.data.basic -%}
 {%- assign diacritic = site.data.diacritic[page.slug] -%}
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200" style="stroke: #000; fill: none; stroke-width: 6; stroke-linecap: round; vector-effect: non-scaling-stroke">
+{% include opening.html %}
 <title>{{ diacritic.title }}</title>
-<style type="text/css">
-{%- assign styles = "grid, gridCont, text, fadedTeeth, copyright, fadedShape, wave, diacriticSpiral" | split: ", " %}
-{%- for st in styles %}
-  {{ site.data.style[st] }}
-{%- endfor %}
-</style>
+{% include style.html %}
 {%- if diacritic.defs %}
 <defs>
   {{ diacritic.defs }}
@@ -19,6 +15,6 @@
 {{ basic.teeth.fadedConsonant }}
 {{ basic.alveola.faded }}
 <path d="{{ basic.shape.consonant }}" class="fadedShape"/>
-{{ diacritic.sign }}
-{{ basic.copyright }}  
+{{ diacritic.sign }} 
+{% include copyright.html %}
 </svg>
