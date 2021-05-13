@@ -1,5 +1,5 @@
 {
-"i": {
+"i.svg": {
     "title": "i",
     "class": {
       "byLips": "close",
@@ -10,7 +10,7 @@
     "lips": "0",
     "tongue": "0"
   },
-"i-◻": {
+"i-◻.svg": {
     "title": "i-◻",
     "class": {
       "byLips": "close",
@@ -21,13 +21,13 @@
     "lips": "14",
     "tongue": "0"
   },
-"y": {
+"y.svg": {
     "title": "y",
     "class": { "byLips": "close", "byTongue": "front", "byLipsShape": "rounded" },
     "lips": "1",
     "tongue": "0"
   },
-"I": {
+"I.svg": {
     "title": "I",
     "class": {
       "byLips": "close",
@@ -38,7 +38,7 @@
     "lips": "2",
     "tongue": "1"
   },
-"I-◻": {
+"I-◻.svg": {
     "title": "I-◻",
     "class": {
       "byLips": "close",
@@ -49,13 +49,13 @@
     "lips": "15",
     "tongue": "1"
   },
-"Y": {
+"Y.svg": {
     "title": "Y",
     "class": { "byLips": "close", "byTongue": "front", "byLipsShape": "rounded" },
     "lips": "3",
     "tongue": "1"
   },
-"ɨ": {
+"ɨ.svg": {
     "title": "ɨ",
     "class": {
       "byLips": "close",
@@ -66,7 +66,7 @@
     "lips": "0",
     "tongue": "2"
   },
-"ɨ-◻": {
+"ɨ-◻.svg": {
     "title": "ɨ-◻",
     "class": {
       "byLips": "close",
@@ -77,19 +77,19 @@
     "lips": "14",
     "tongue": "2"
   },
-"ʉ": {
+"ʉ.svg": {
     "title": "ʉ",
     "class": { "byLips": "close", "byTongue": "central", "byLipsShape": "rounded" },
     "lips": "1",
     "tongue": "2"
   },
-"ʊ": {
+"ʊ.svg": {
     "title": "ʊ",
     "class": { "byLips": "close", "byTongue": "central", "byLipsShape": "rounded" },
     "lips": "4",
     "tongue": "3"
   },
-"ʊ-◻": {
+"ʊ-◻.svg": {
     "title": "ʊ-◻",
     "class": {
       "byLips": "close",
@@ -100,7 +100,7 @@
     "lips": "20",
     "tongue": "3"
   },
-"ɯ": {
+"ɯ.svg": {
     "title": "ɯ",
     "class": {
       "byLips": "close",
@@ -111,7 +111,7 @@
     "lips": "0",
     "tongue": "4"
   },
-"ɯ-◻": {
+"ɯ-◻.svg": {
     "title": "ɯ-◻",
     "class": {
       "byLips": "close",
@@ -122,13 +122,13 @@
     "lips": "14",
     "tongue": "4"
   },
-"u": {
+"u.svg": {
     "title": "u",
     "class": { "byLips": "close", "byTongue": "back", "byLipsShape": "rounded" },
     "lips": "1",
     "tongue": "4"
   },
-"e": {
+"e.svg": {
     "title": "e",
     "class": {
       "byLips": "close-mid",
@@ -139,7 +139,7 @@
     "lips": "5",
     "tongue": "5"
   },
-"e-◻": {
+"e-◻.svg": {
     "title": "e-◻",
     "class": {
       "byLips": "close-mid",
@@ -150,13 +150,13 @@
     "lips": "16",
     "tongue": "5"
   },
-"ø": {
+"ø.svg": {
     "title": "ø",
     "class": { "byLips": "close-mid", "byTongue": "front", "byLipsShape": "rounded" },
     "lips": "6",
     "tongue": "5"
   },
-"ɘ": {
+"ɘ.svg": {
     "title": "ɘ",
     "class": {
       "byLips": "close-mid",
@@ -167,7 +167,7 @@
     "lips": "5",
     "tongue": "6"
   },
-"ɘ-◻": {
+"ɘ-◻.svg": {
     "title": "ɘ-◻",
     "class": {
       "byLips": "close-mid",
@@ -178,19 +178,19 @@
     "lips": "16",
     "tongue": "6"
   },
-"ɵ": {
+"ɵ.svg": {
     "title": "ɵ",
     "class": { "byLips": "close-mid", "byTongue": "central", "byLipsShape": "rounded" },
     "lips": "6",
     "tongue": "6"
   },
-"ə": {
+"ə.svg": {
     "title": "ə",
     "class": { "byLips": "close-mid", "byTongue": "central", "byLipsShape": "rounded" },
     "lips": "7",
     "tongue": "7"
   },
-"ə-◻": {
+"ə-◻.svg": {
     "title": "ə-◻",
     "class": {
       "byLips": "close-mid",
@@ -201,7 +201,7 @@
     "lips": "21",
     "tongue": "7"
   },
-"ɤ": {
+"ɤ.svg": {
     "title": "ɤ",
     "class": {
       "byLips": "close-mid",
@@ -212,7 +212,7 @@
     "lips": "5",
     "tongue": "8"
   },
-"ɤ-◻": {
+"ɤ-◻.svg": {
     "title": "ɤ-◻",
     "class": {
       "byLips": "close-mid",
@@ -223,13 +223,13 @@
     "lips": "16",
     "tongue": "8"
   },
-"o": {
+"o.svg": {
     "title": "o",
     "class": { "byLips": "close-mid", "byTongue": "back", "byLipsShape": "rounded" },
     "lips": "6",
     "tongue": "8"
   },
-"ɛ": {
+"ɛ.svg": {
     "title": "ɛ",
     "class": {
       "byLips": "open-mid",
@@ -240,7 +240,7 @@
     "lips": "8",
     "tongue": "9"
   },
-"ɛ-◻": {
+"ɛ-◻.svg": {
     "title": "ɛ-◻",
     "class": {
       "byLips": "open-mid",
@@ -251,13 +251,13 @@
     "lips": "17",
     "tongue": "9"
   },
-"œ": {
+"œ.svg": {
     "title": "œ",
     "class": { "byLips": "open-mid", "byTongue": "front", "byLipsShape": "rounded" },
     "lips": "9",
     "tongue": "9"
   },
-"æ": {
+"æ.svg": {
     "title": "æ",
     "class": {
       "byLips": "open-mid",
@@ -268,7 +268,7 @@
     "lips": "10",
     "tongue": "10"
   },
-"æ-◻": {
+"æ-◻.svg": {
     "title": "æ-◻",
     "class": {
       "byLips": "open-mid",
@@ -279,7 +279,7 @@
     "lips": "18",
     "tongue": "10"
   },
-"ɜ": {
+"ɜ.svg": {
     "title": "ɜ",
     "class": {
       "byLips": "open-mid",
@@ -290,7 +290,7 @@
     "lips": "8",
     "tongue": "11"
   },
-"ɜ-◻": {
+"ɜ-◻.svg": {
     "title": "ɜ-◻",
     "class": {
       "byLips": "open-mid",
@@ -301,19 +301,19 @@
     "lips": "17",
     "tongue": "11"
   },
-"ɞ": {
+"ɞ.svg": {
     "title": "ɞ",
     "class": { "byLips": "open-mid", "byTongue": "central", "byLipsShape": "rounded" },
     "lips": "9",
     "tongue": "11"
   },
-"ɐ": {
+"ɐ.svg": {
     "title": "ɐ",
     "class": { "byLips": "open-mid", "byTongue": "central", "byLipsShape": "rounded" },
     "lips": "11",
     "tongue": "12"
   },
-"ɐ-◻": {
+"ɐ-◻.svg": {
     "title": "ɐ-◻",
     "class": {
       "byLips": "open-mid",
@@ -324,7 +324,7 @@
     "lips": "22",
     "tongue": "12"
   },
-"ʌ": {
+"ʌ.svg": {
     "title": "ʌ",
     "class": {
       "byLips": "open-mid",
@@ -335,7 +335,7 @@
     "lips": "8",
     "tongue": "13"
   },
-"ʌ-◻": {
+"ʌ-◻.svg": {
     "title": "ʌ-◻",
     "class": {
       "byLips": "open-mid",
@@ -346,13 +346,13 @@
     "lips": "17",
     "tongue": "13"
   },
-"ɔ": {
+"ɔ.svg": {
     "title": "ɔ",
     "class": { "byLips": "open-mid", "byTongue": "back", "byLipsShape": "rounded" },
     "lips": "9",
     "tongue": "13"
   },
-"a": {
+"a.svg": {
     "title": "a",
     "class": {
       "byLips": "open",
@@ -363,7 +363,7 @@
     "lips": "12",
     "tongue": "14"
   },
-"a-◻": {
+"a-◻.svg": {
     "title": "a-◻",
     "class": {
       "byLips": "open",
@@ -374,13 +374,13 @@
     "lips": "19",
     "tongue": "14"
   },
-"ɶ": {
+"ɶ.svg": {
     "title": "ɶ",
     "class": { "byLips": "open", "byTongue": "front", "byLipsShape": "rounded" },
     "lips": "13",
     "tongue": "14"
   },
-"ɑ": {
+"ɑ.svg": {
     "title": "ɑ",
     "class": {
       "byLips": "open",
@@ -391,7 +391,7 @@
     "lips": "12",
     "tongue": "15"
   },
-"ɑ-◻": {
+"ɑ-◻.svg": {
     "title": "ɑ-◻",
     "class": {
       "byLips": "open",
@@ -402,13 +402,13 @@
     "lips": "19",
     "tongue": "15"
   },
-"ɒ": {
+"ɒ.svg": {
     "title": "ɒ",
     "class": { "byLips": "open", "byTongue": "back", "byLipsShape": "rounded" },
     "lips": "13",
     "tongue": "15"
   },
-"ɛ̃": {
+"ɛ̃.svg": {
     "title": "ɛ̃",
     "class": {
       "byLips": "open-mid",
@@ -420,7 +420,7 @@
     "lips": "8",
     "tongue": "9"
   },
-"œ̃": {
+"œ̃.svg": {
     "title": "œ̃",
     "class": {
       "byLips": "open-mid",
@@ -431,7 +431,7 @@
     "lips": "9",
     "tongue": "9"
   },
-"ɑ̃": {
+"ɑ̃.svg": {
     "title": "ɑ̃",
     "class": {
       "byLips": "open",
@@ -443,7 +443,7 @@
     "lips": "12",
     "tongue": "15"
   },
-"ɔ̃": {
+"ɔ̃.svg": {
     "title": "ɔ̃",
     "class": {
       "byLips": "open-mid",
@@ -454,8 +454,8 @@
     "lips": "9",
     "tongue": "13"
   },
-  "Ĩ": {
-    "title": "Ĩ",
+  "Ĩ.svg": {
+    "title": "Ĩ",
     "class": {
       "byLips": "close",
       "byTongue": "front",
