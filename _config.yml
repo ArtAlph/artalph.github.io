@@ -43,7 +43,7 @@ defaults:
       layout: null
       sitemap:
         exclude: "yes" # Exclude from sitemap.xml
-    -
+  -
     scope:
       path: "signs/vowels"
     values:
