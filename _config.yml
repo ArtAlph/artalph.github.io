@@ -43,6 +43,11 @@ defaults:
       layout: null
       sitemap:
         exclude: "yes" # Exclude from sitemap.xml
+    -
+    scope:
+      path: "signs/vowels"
+    values:
+      layout: vowel
   -
     scope:
       path: "signs/mods/figures"
