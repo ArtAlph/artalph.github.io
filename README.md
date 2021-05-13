@@ -1,3 +1,1 @@
----
----
-# [PPA – Pictographic Phonetic Alphabet]({{ site.url }})
+# [PPA – Pictographic Phonetic Alphabet](https://ppa4ipa.github.io)
