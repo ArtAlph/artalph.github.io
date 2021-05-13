@@ -7,8 +7,8 @@
       "byLipsShape": "unrounded",
       "squred": false
     },
-    "lips": "lips[0]",
-    "tongue": "tongue[0]"
+    "lips": "0",
+    "tongue": "0"
   },
 "i-◻": {
     "title": "i-◻",
@@ -18,14 +18,14 @@
       "byLipsShape": "unrounded",
       "squred": true
     },
-    "lips": "lips[14]",
-    "tongue": "tongue[0]"
+    "lips": "14",
+    "tongue": "0"
   },
 "y": {
     "title": "y",
     "class": { "byLips": "close", "byTongue": "front", "byLipsShape": "rounded" },
-    "lips": "lips[1]",
-    "tongue": "tongue[0]"
+    "lips": "1",
+    "tongue": "0"
   },
 "I": {
     "title": "I",
@@ -35,8 +35,8 @@
       "byLipsShape": "unrounded",
       "squred": false
     },
-    "lips": "lips[2]",
-    "tongue": "tongue[1]"
+    "lips": "2",
+    "tongue": "1"
   },
 "I-◻": {
     "title": "I-◻",
@@ -46,14 +46,14 @@
       "byLipsShape": "unrounded",
       "squred": true
     },
-    "lips": "lips[15]",
-    "tongue": "tongue[1]"
+    "lips": "15",
+    "tongue": "1"
   },
 "Y": {
     "title": "Y",
     "class": { "byLips": "close", "byTongue": "front", "byLipsShape": "rounded" },
-    "lips": "lips[3]",
-    "tongue": "tongue[1]"
+    "lips": "3",
+    "tongue": "1"
   },
 "ɨ": {
     "title": "ɨ",
@@ -63,8 +63,8 @@
       "byLipsShape": "unrounded",
       "squred": false
     },
-    "lips": "lips[0]",
-    "tongue": "tongue[2]"
+    "lips": "0",
+    "tongue": "2"
   },
 "ɨ-◻": {
     "title": "ɨ-◻",
@@ -74,20 +74,20 @@
       "byLipsShape": "unrounded",
       "squred": true
     },
-    "lips": "lips[14]",
-    "tongue": "tongue[2]"
+    "lips": "14",
+    "tongue": "2"
   },
 "ʉ": {
     "title": "ʉ",
     "class": { "byLips": "close", "byTongue": "central", "byLipsShape": "rounded" },
-    "lips": "lips[1]",
-    "tongue": "tongue[2]"
+    "lips": "1",
+    "tongue": "2"
   },
 "ʊ": {
     "title": "ʊ",
     "class": { "byLips": "close", "byTongue": "central", "byLipsShape": "rounded" },
-    "lips": "lips[4]",
-    "tongue": "tongue[3]"
+    "lips": "4",
+    "tongue": "3"
   },
 "ʊ-◻": {
     "title": "ʊ-◻",
@@ -97,8 +97,8 @@
       "byLipsShape": "halfrounded",
       "squred": true
     },
-    "lips": "lips[20]",
-    "tongue": "tongue[3]"
+    "lips": "20",
+    "tongue": "3"
   },
 "ɯ": {
     "title": "ɯ",
@@ -108,8 +108,8 @@
       "byLipsShape": "unrounded",
       "squred": false
     },
-    "lips": "lips[0]",
-    "tongue": "tongue[4]"
+    "lips": "0",
+    "tongue": "4"
   },
 "ɯ-◻": {
     "title": "ɯ-◻",
@@ -119,14 +119,14 @@
       "byLipsShape": "unrounded",
       "squred": true
     },
-    "lips": "lips[14]",
-    "tongue": "tongue[4]"
+    "lips": "14",
+    "tongue": "4"
   },
 "u": {
     "title": "u",
     "class": { "byLips": "close", "byTongue": "back", "byLipsShape": "rounded" },
-    "lips": "lips[1]",
-    "tongue": "tongue[4]"
+    "lips": "1",
+    "tongue": "4"
   },
 "e": {
     "title": "e",
@@ -136,8 +136,8 @@
       "byLipsShape": "unrounded",
       "squred": false
     },
-    "lips": "lips[5]",
-    "tongue": "tongue[5]"
+    "lips": "5",
+    "tongue": "5"
   },
 "e-◻": {
     "title": "e-◻",
@@ -147,14 +147,14 @@
       "byLipsShape": "unrounded",
       "squred": true
     },
-    "lips": "lips[16]",
-    "tongue": "tongue[5]"
+    "lips": "16",
+    "tongue": "5"
   },
 "ø": {
     "title": "ø",
     "class": { "byLips": "close-mid", "byTongue": "front", "byLipsShape": "rounded" },
-    "lips": "lips[6]",
-    "tongue": "tongue[5]"
+    "lips": "6",
+    "tongue": "5"
   },
 "ɘ": {
     "title": "ɘ",
@@ -164,8 +164,8 @@
       "byLipsShape": "unrounded",
       "squred": false
     },
-    "lips": "lips[5]",
-    "tongue": "tongue[6]"
+    "lips": "5",
+    "tongue": "6"
   },
 "ɘ-◻": {
     "title": "ɘ-◻",
@@ -175,20 +175,20 @@
       "byLipsShape": "unrounded",
       "squred": true
     },
-    "lips": "lips[16]",
-    "tongue": "tongue[6]"
+    "lips": "16",
+    "tongue": "6"
   },
 "ɵ": {
     "title": "ɵ",
     "class": { "byLips": "close-mid", "byTongue": "central", "byLipsShape": "rounded" },
-    "lips": "lips[6]",
-    "tongue": "tongue[6]"
+    "lips": "6",
+    "tongue": "6"
   },
 "ə": {
     "title": "ə",
     "class": { "byLips": "close-mid", "byTongue": "central", "byLipsShape": "rounded" },
-    "lips": "lips[7]",
-    "tongue": "tongue[7]"
+    "lips": "7",
+    "tongue": "7"
   },
 "ə-◻": {
     "title": "ə-◻",
@@ -198,8 +198,8 @@
       "byLipsShape": "halfrounded",
       "squred": true
     },
-    "lips": "lips[21]",
-    "tongue": "tongue[7]"
+    "lips": "21",
+    "tongue": "7"
   },
 "ɤ": {
     "title": "ɤ",
@@ -209,8 +209,8 @@
       "byLipsShape": "unrounded",
       "squred": false
     },
-    "lips": "lips[5]",
-    "tongue": "tongue[8]"
+    "lips": "5",
+    "tongue": "8"
   },
 "ɤ-◻": {
     "title": "ɤ-◻",
@@ -220,14 +220,14 @@
       "byLipsShape": "unrounded",
       "squred": true
     },
-    "lips": "lips[16]",
-    "tongue": "tongue[8]"
+    "lips": "16",
+    "tongue": "8"
   },
 "o": {
     "title": "o",
     "class": { "byLips": "close-mid", "byTongue": "back", "byLipsShape": "rounded" },
-    "lips": "lips[6]",
-    "tongue": "tongue[8]"
+    "lips": "6",
+    "tongue": "8"
   },
 "ɛ": {
     "title": "ɛ",
@@ -237,8 +237,8 @@
       "byLipsShape": "unrounded",
       "squred": false
     },
-    "lips": "lips[8]",
-    "tongue": "tongue[9]"
+    "lips": "8",
+    "tongue": "9"
   },
 "ɛ-◻": {
     "title": "ɛ-◻",
@@ -248,14 +248,14 @@
       "byLipsShape": "unrounded",
       "squred": true
     },
-    "lips": "lips[17]",
-    "tongue": "tongue[9]"
+    "lips": "17",
+    "tongue": "9"
   },
 "œ": {
     "title": "œ",
     "class": { "byLips": "open-mid", "byTongue": "front", "byLipsShape": "rounded" },
-    "lips": "lips[9]",
-    "tongue": "tongue[9]"
+    "lips": "9",
+    "tongue": "9"
   },
 "æ": {
     "title": "æ",
@@ -265,8 +265,8 @@
       "byLipsShape": "unrounded",
       "squred": false
     },
-    "lips": "lips[10]",
-    "tongue": "tongue[10]"
+    "lips": "10",
+    "tongue": "10"
   },
 "æ-◻": {
     "title": "æ-◻",
@@ -276,8 +276,8 @@
       "byLipsShape": "unrounded",
       "squred": true
     },
-    "lips": "lips[18]",
-    "tongue": "tongue[10]"
+    "lips": "18",
+    "tongue": "10"
   },
 "ɜ": {
     "title": "ɜ",
@@ -287,8 +287,8 @@
       "byLipsShape": "unrounded",
       "squred": false
     },
-    "lips": "lips[8]",
-    "tongue": "tongue[11]"
+    "lips": "8",
+    "tongue": "11"
   },
 "ɜ-◻": {
     "title": "ɜ-◻",
@@ -298,20 +298,20 @@
       "byLipsShape": "unrounded",
       "squred": true
     },
-    "lips": "lips[17]",
-    "tongue": "tongue[11]"
+    "lips": "17",
+    "tongue": "11"
   },
 "ɞ": {
     "title": "ɞ",
     "class": { "byLips": "open-mid", "byTongue": "central", "byLipsShape": "rounded" },
-    "lips": "lips[9]",
-    "tongue": "tongue[11]"
+    "lips": "9",
+    "tongue": "11"
   },
 "ɐ": {
     "title": "ɐ",
     "class": { "byLips": "open-mid", "byTongue": "central", "byLipsShape": "rounded" },
-    "lips": "lips[11]",
-    "tongue": "tongue[12]"
+    "lips": "11",
+    "tongue": "12"
   },
 "ɐ-◻": {
     "title": "ɐ-◻",
@@ -321,8 +321,8 @@
       "byLipsShape": "halfrounded",
       "squred": true
     },
-    "lips": "lips[22]",
-    "tongue": "tongue[12]"
+    "lips": "22",
+    "tongue": "12"
   },
 "ʌ": {
     "title": "ʌ",
@@ -332,8 +332,8 @@
       "byLipsShape": "unrounded",
       "squred": false
     },
-    "lips": "lips[8]",
-    "tongue": "tongue[13]"
+    "lips": "8",
+    "tongue": "13"
   },
 "ʌ-◻": {
     "title": "ʌ-◻",
@@ -343,14 +343,14 @@
       "byLipsShape": "unrounded",
       "squred": true
     },
-    "lips": "lips[17]",
-    "tongue": "tongue[13]"
+    "lips": "17",
+    "tongue": "13"
   },
 "ɔ": {
     "title": "ɔ",
     "class": { "byLips": "open-mid", "byTongue": "back", "byLipsShape": "rounded" },
-    "lips": "lips[9]",
-    "tongue": "tongue[13]"
+    "lips": "9",
+    "tongue": "13"
   },
 "a": {
     "title": "a",
@@ -360,8 +360,8 @@
       "byLipsShape": "unrounded",
       "squred": false
     },
-    "lips": "lips[12]",
-    "tongue": "tongue[14]"
+    "lips": "12",
+    "tongue": "14"
   },
 "a-◻": {
     "title": "a-◻",
@@ -371,14 +371,14 @@
       "byLipsShape": "unrounded",
       "squred": true
     },
-    "lips": "lips[19]",
-    "tongue": "tongue[14]"
+    "lips": "19",
+    "tongue": "14"
   },
 "ɶ": {
     "title": "ɶ",
     "class": { "byLips": "open", "byTongue": "front", "byLipsShape": "rounded" },
-    "lips": "lips[13]",
-    "tongue": "tongue[14]"
+    "lips": "13",
+    "tongue": "14"
   },
 "ɑ": {
     "title": "ɑ",
@@ -388,8 +388,8 @@
       "byLipsShape": "unrounded",
       "squred": false
     },
-    "lips": "lips[12]",
-    "tongue": "tongue[15]"
+    "lips": "12",
+    "tongue": "15"
   },
 "ɑ-◻": {
     "title": "ɑ-◻",
@@ -399,14 +399,14 @@
       "byLipsShape": "unrounded",
       "squred": true
     },
-    "lips": "lips[19]",
-    "tongue": "tongue[15]"
+    "lips": "19",
+    "tongue": "15"
   },
 "ɒ": {
     "title": "ɒ",
     "class": { "byLips": "open", "byTongue": "back", "byLipsShape": "rounded" },
-    "lips": "lips[13]",
-    "tongue": "tongue[15]"
+    "lips": "13",
+    "tongue": "15"
   },
 "ɛ̃": {
     "title": "ɛ̃",
@@ -417,8 +417,8 @@
       "squred": false,
       "nasal": true
     },
-    "lips": "lips[8]",
-    "tongue": "tongue[9]"
+    "lips": "8",
+    "tongue": "9"
   },
 "œ̃": {
     "title": "œ̃",
@@ -428,8 +428,8 @@
       "byLipsShape": "rounded",
       "nasal": true
     },
-    "lips": "lips[9]",
-    "tongue": "tongue[9]"
+    "lips": "9",
+    "tongue": "9"
   },
 "ɑ̃": {
     "title": "ɑ̃",
@@ -440,8 +440,8 @@
       "squred": false,
       "nasal": true
     },
-    "lips": "lips[12]",
-    "tongue": "tongue[15]"
+    "lips": "12",
+    "tongue": "15"
   },
 "ɔ̃": {
     "title": "ɔ̃",
@@ -451,8 +451,8 @@
       "byLipsShape": "rounded",
       "nasal": true
     },
-    "lips": "lips[9]",
-    "tongue": "tongue[13]"
+    "lips": "9",
+    "tongue": "13"
   },
   "Ĩ": {
     "title": "Ĩ",
@@ -463,7 +463,7 @@
       "squred": false,
       "nasal": true
     },
-    "lips": "lips[2]",
-    "tongue": "tongue[1]"
+    "lips": "2",
+    "tongue": "1"
   }
 }
