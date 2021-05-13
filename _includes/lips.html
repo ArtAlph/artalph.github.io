@@ -1,0 +1,6 @@
+{%- assign lips = site.data.basic.lips[vowel.lips] %}
+{%- if vowel.class.squred %}
+rect x="{{ lips.x }}" y="{{ lips.y }}" rx="{{ lips.rx }}" ry="{{ lips.ry }}" width="{{ lips.width }}" height="{{ lips.height }}"
+{%- else %}
+ellipse cx="{{ lips.cx }}" cy="{{ lips.cy }}" rx="{{ lips.rx }}" ry="{{ lips.ry }}"
+{%- endif %}
