@@ -46,41 +46,31 @@ Under development.
   <tbody>
   <tr>
     <td>1</td>
-    <td><div id="dia1" class="signs">
-      <img src="signs/diacritics/voiced.svg" width="80" height="80"/>
-    </div></td>
+    <td>{% include figure.html url="signs/diacritics/voiced.svg" title="Voiced" %}</td>
     <td>Voiced [+voice] (unnecessary for sounds voiced by definition: vowels, nasals, etc.)</td>
     <td>Wavy shape &amp; place = sound wave from the vocal cords</td>
   </tr>
   <tr>
     <td>2</td>
-    <td><div id="dia2" class="signs">
-      <img src="signs/diacritics/creaky-voiced.svg" width="80" height="80"/>
-    </div></td>
+    <td>{% include figure.html url="signs/diacritics/creaky-voiced.svg" title="Creaky voiced" %}</td>
     <td>Creaky voiced</td>
     <td>Arrow head = sharpness</td>
   </tr>
   <tr>
     <td>3</td>
-    <td><div id="dia3" class="signs">
-      <img src="signs/diacritics/breathy-voiced.svg" width="80" height="80"/>
-    </div></td>
+    <td>{% include figure.html url="signs/diacritics/breathy-voiced.svg" title="Breathy voiced" %}</td>
     <td>Breathy voiced</td>
     <td>Spiraling shape = breath &amp; air</td>
   </tr>
   <tr>
     <td>4</td>
-    <td><div id="dia4" class="signs">
-      <img src="signs/diacritics/aspirated.svg" width="80" height="80"/>
-    </div></td>
+    <td>{% include figure.html url="signs/diacritics/aspirated.svg" title="Aspirated" %}</td>
     <td>Aspirated</td>
     <td>Spiraling shape &amp; place = puff of air</td>
   </tr>
   <tr>
     <td>5</td>
-    <td><div id="dia5" class="signs">
-      <img src="signs/diacritics/unvoiced.svg" width="80" height="80"/>
-    </div></td>
+    <td>{% include figure.html url="signs/diacritics/unvoiced.svg" title="Unvoiced" %}</td>
     <td>Voiceless</td>
     <td>Crossed bars = blocked way</td>
   </tr>
