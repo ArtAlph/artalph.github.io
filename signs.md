@@ -30,3 +30,59 @@ New signs are under development.
 ## {{ site.title }} Inventory
 
 Under development.
+
+### Additional symbols for phonological features (**DIACRITICS** in IPA)
+
+<table>
+  <caption>Artalph inventory: additional <strong>symbols</strong> for phonological features (DIACRITICS in IPA)</caption>
+  <thead>
+  <tr>
+    <th>N</th>
+    <th>Symbols</th>
+    <th>Meaning</th>
+    <th>Icon = pictographic metaphor</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>1</td>
+    <td><div id="dia1" class="signs">
+      <img src="//signs/diacritics/voiced.svg" width="80" height="80"/>
+    </div></td>
+    <td>Voiced [+voice] (unnecessary for sounds voiced by definition: vowels, nasals, etc.)</td>
+    <td>Wavy shape &amp; place = sound wave from the vocal cords</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><div id="dia2" class="signs">
+      <img src="//signs/diacritics/creaky-voiced.svg" width="80" height="80"/>
+    </div></td>
+    <td>Creaky voiced</td>
+    <td>Arrow head = sharpness</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><div id="dia3" class="signs">
+      <img src="//signs/diacritics/breathy-voiced.svg" width="80" height="80"/>
+    </div></td>
+    <td>Breathy voiced</td>
+    <td>Spiraling shape = breath &amp; air</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><div id="dia4" class="signs">
+      <img src="//signs/diacritics/aspirated.svg" width="80" height="80"/>
+    </div></td>
+    <td>Aspirated</td>
+    <td>Spiraling shape &amp; place = puff of air</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td><div id="dia5" class="signs">
+      <img src="//signs/diacritics/unvoiced.svg" width="80" height="80"/>
+    </div></td>
+    <td>Voiceless</td>
+    <td>Crossed bars = blocked way</td>
+  </tr>
+</tbody>
+</table>
