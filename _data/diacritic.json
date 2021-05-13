@@ -1,23 +1,23 @@
 {
-  "voiced": {
+  "voiced.svg": {
     "title": "voiced",
     "defs": "<clipPath id=\"cutoff\"><rect x=\"0.5\" y=\"0\" width=\"165\" height=\"55\"/></clipPath>",
     "sign": "<path transform=\"translate(162.7,104.0) rotate(90 3 9) scale(.33)\" class=\"wave\" clip-path=\"url(#cutoff)\" d=\"m-48.5 27.5q16.5-27 33 0t33 0t33 0t33 0t33 0t33 0t33 0t33 0\"/>"
   },
-  "creaky voiced": {
+  "creaky-voiced.svg": {
     "title": "creaky voiced",
     "defs": "<clipPath id=\"cutoff\"><rect x=\"0.5\" y=\"0\" width=\"165\" height=\"55\"/></clipPath>",
     "sign": "<path id=\"creaky_partial\" transform=\"translate(166.7,104.0) rotate(90 3 9) scale(.33)\" class=\"wave\" clip-path=\"url(#cutoff)\" d=\"m-48.5 27.5q16.5-27 33 0t33 0t33 0t33 0t33 0t33 0t33 0t33 0\"/><use xlink:href=\"#creaky_partial\" href=\"#creaky_partial\" class=\"wave\" transform=\"rotate(25 166.7,110.0)\"/>"
   },
-  "breathy voiced": {
+  "breathy-voiced.svg": {
     "title": "breathy voiced",
     "sign": "<path class=\"diacriticSpiral\" d=\"M19 24c-1-3 2-6 5-6c6 0 9 4 9 10c0 7-7 12-14 12c-9 0-15-10-14-19c1-11 12-19 22-17c14 2 22 15 25 48\" transform=\"matrix(0.6,0,0,0.6,142,130)\"/>"
   },
-  "aspirated": {
+  "aspirated.svg": {
     "title": "aspirated",
     "sign": "<path class=\"diacriticSpiral\" d=\"M19 24c-1-3 2-6 5-6c6 0 9 4 9 10c0 7-7 12-14 12c-9 0-15-10-14-19c1-11 12-19 22-17c14 2 22 15 25 48\" transform=\"matrix(0.6,0,0,0.6,4,53)\"/>"
   },
-  "unvoiced": {
+  "unvoiced.svg": {
     "title": "unvoiced",
     "sign": "<g transform=\"translate(157.7,130)\" class=\"crossLine\"><line x1=\"0\" y1=\"0\" x2=\"15\" y2=\"15\"/><line x1=\"15\" y1=\"0\" x2=\"0\" y2=\"15\"/></g>"
   }
