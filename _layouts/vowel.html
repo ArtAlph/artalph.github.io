@@ -17,7 +17,7 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 <defs>
   <mask id="{{ vowel.title }}_hole">
     <rect width="100%" height="100%" fill="white"/>
-    <{% include lips.html -%} fill="black" stroke-width="0"/>
+    <{%- include lips.html -%} fill="black" stroke-width="0"/>
   </mask>
 </defs>
 <path d="M{{ gridX }},{{ gridY }}h100m-100,25h100m-100,25h100m-100,25h100m-100,25h100m-100,-100v100m25,-100v100m25,-100v100m25,-100v100m25,-100v100" class="grid"/>
