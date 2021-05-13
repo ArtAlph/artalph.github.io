@@ -2,8 +2,8 @@
 styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright", "shape"]
 ---
 {%- assign basic = site.data.basic -%}
-{%- assign l = site.data.lips -%}
 {%- assign vowel = site.data.vowel[page.name] -%}
+{%- assign lips = site.data.lips[vowel.lips] -%}
 {%- if vowel.class.nasal %}
 {%- assign gridX = basic.grid.x.nasalVowel -%}
 {%- assign gridY = basic.grid.y.nasalVowel -%}
@@ -24,9 +24,9 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 {%- if vowel.class.nasal %}{{ basic.teeth.nasalVowel }}{% else %}{{ basic.teeth.vowel }}{% endif %}
 <path d="{% if vowel.class.nasal %}{{ basic.shape.nasalVowel }}{% else %}{{ basic.shape.vowel }}{% endif %}" mask="url(#{{ vowel.title }}_hole)" class="shape"/>
 {%- if vowel.class.squred %}
-<rect x="{{ l.x }}" y="{{ l.y }}" rx="{{ l.rx }}" ry="{{ l.ry }}" width="{{ l.width }}" height="{{ l.height }}" class="lips"/>
+<rect x="{{ lips.x }}" y="{{ lips.y }}" rx="{{ lips.rx }}" ry="{{ lips.ry }}" width="{{ lips.width }}" height="{{ lips.height }}" class="lips"/>
 {%- else %}
-<ellipse cx="{{ l.cx }}" cy="{{ l.cy }}" rx="{{ l.rx }}" ry="{{ l.ry }}" class="lips"/>
+<ellipse cx="{{ lips.cx }}" cy="{{ lips.cy }}" rx="{{ lips.rx }}" ry="{{ lips.ry }}" class="lips"/>
 {%- endif %}
 <path d="{{ site.data.tongue[vowel.tongue] }}" class="activeFilled"/>
 {% include copyright.html -%}
