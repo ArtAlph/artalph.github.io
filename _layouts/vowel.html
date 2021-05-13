@@ -13,18 +13,21 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 {% include opening.html -%}
 <title>{{ vowel.title }}</title>
 {% include style.html -%}
-{%- if vowel.defs -%}
 <defs>
   <mask id="{{ vowel.title }}_hole">
     <rect width="100%" height="100%" fill="white"/>
     <{{ basic.lips[vowel.lips] }} fill="black" stroke-width="0"/>
   </mask>
 </defs>
-{% endif -%}
-{% include grid.html -%}
+<path d="M{{ layout.gridX }},{{ layout.gridY }}h100m-100,25h100m-100,25h100m-100,25h100m-100,25h100m-100,-100v100m25,-100v100m25,-100v100m25,-100v100m25,-100v100" class="grid"/>
 {%- if vowel.class.nasal %}{{ basic.teeth.nasalVowel }}{% else %}{{ basic.teeth.vowel }}{% endif %}
 <path d="{% if vowel.class.nasal %}{{ basic.shape.nasalVowel }}{% else %}{{ basic.shape.vowel }}{% endif %}" mask="url(#{{title}}_hole)" class="shape"/>
-<{% include lips.html -%} class="lips"/>
+{%- assign lips = basic.lips[vowel.lips] %}
+{%- if vowel.class.squred %}
+<rect x="{{ lips.x }}" y="{{ lips.y }}" rx="{{ lips.rx }}" ry="{{ lips.ry }}" width="{{ lips.width }}" height="{{ lips.height }}" class="lips"/>
+{%- else %}
+<ellipse cx="{{ lips.cx }}" cy="{{ lips.cy }}" rx="{{ lips.rx }}" ry="{{ lips.ry }}" class="lips"/>
+{%- endif %}
 <path d="{{ basic.tongue[vowel.tongue] }}" class="activeFilled"/>
 {% include copyright.html -%}
 </svg>
