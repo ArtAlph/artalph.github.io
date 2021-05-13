@@ -1,1 +1,3 @@
-# [PPA – Pictographic Phonetic Alphabet](https://stomabet.github.io)
+---
+---
+# [PPA – Pictographic Phonetic Alphabet]({{ site.url }})
