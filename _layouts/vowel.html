@@ -22,8 +22,7 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 </defs>
 <path d="M{{ gridX }},{{ gridY }}h100m-100,25h100m-100,25h100m-100,25h100m-100,25h100m-100,-100v100m25,-100v100m25,-100v100m25,-100v100m25,-100v100" class="grid"/>
 {%- if vowel.class.nasal %}{{ basic.teeth.nasalVowel }}{% else %}{{ basic.teeth.vowel }}{% endif %}
-<path d="{% if vowel.class.nasal %}{{ basic.shape.nasalVowel }}{% else %}{{ basic.shape.vowel }}{% endif %}" mask="url(#{{title}}_hole)" class="shape"/>
-{%- assign lips = basic.lips[vowel.lips] %}
+<path d="{% if vowel.class.nasal %}{{ basic.shape.nasalVowel }}{% else %}{{ basic.shape.vowel }}{% endif %}" mask="url(#{{ vowel.title }}_hole)" class="shape"/>
 {%- if vowel.class.squred %}
 <rect x="{{ l.x }}" y="{{ l.y }}" rx="{{ l.rx }}" ry="{{ l.ry }}" width="{{ l.width }}" height="{{ l.height }}" class="lips"/>
 {%- else %}
