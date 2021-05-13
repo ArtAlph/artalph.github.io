@@ -21,20 +21,20 @@ Attribution:
 > as a distinct individual Work. Copyright © 2013 Snejina Sonina. Extended licences 
 > available as expressly authorized in writing by Snejina Sonina, <{{ site.email }}>
 
-## {{ site.title }} Characters
+<h2 id="{{ site.title }}-characters"> {{ site.title }} Characters</h2>
 
 PDF file with the first version of {{ site.longtitle }} is [here](/docs/sonina.artalph.pdf).
 
 New signs are under development.
 
-## {{ site.title }} Inventory
+<h2 id="{{ site.title }}-inventory"> {{ site.title }} Inventory</h2>
 
 Under development.
 
 ### Additional symbols for phonological features (**DIACRITICS** in IPA)
 
 <table>
-  <caption>Artalph inventory: additional <strong>symbols</strong> for phonological features (DIACRITICS in IPA)</caption>
+  <caption>{{ site.title }} inventory: additional <strong>symbols</strong> for phonological features (DIACRITICS in IPA)</caption>
   <thead>
   <tr>
     <th>N</th>
