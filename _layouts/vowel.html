@@ -23,11 +23,7 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 <path d="M{{ gridX }},{{ gridY }}h100m-100,25h100m-100,25h100m-100,25h100m-100,25h100m-100,-100v100m25,-100v100m25,-100v100m25,-100v100m25,-100v100" class="grid"/>
 {%- if vowel.class.nasal %}{{ basic.teeth.nasalVowel }}{% else %}{{ basic.teeth.vowel }}{% endif %}
 <path d="{% if vowel.class.nasal %}{{ basic.shape.nasalVowel }}{% else %}{{ basic.shape.vowel }}{% endif %}" mask="url(#{{ vowel.title }}_hole)" class="shape"/>
-{%- if vowel.class.squred %}
-<rect x="{{ lips.x }}" y="{{ lips.y }}" rx="{{ lips.rx }}" ry="{{ lips.ry }}" width="{{ lips.width }}" height="{{ lips.height }}" class="lips"/>
-{%- else %}
-<ellipse cx="{{ lips.cx }}" cy="{{ lips.cy }}" rx="{{ lips.rx }}" ry="{{ lips.ry }}" class="lips"/>
-{%- endif %}
+{% include lips.html -%}
 <path d="{{ site.data.tongue[vowel.tongue] }}" class="activeFilled"/>
 {% include copyright.html -%}
 </svg>
