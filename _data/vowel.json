@@ -1,0 +1,469 @@
+{
+"i": {
+    "title": "i",
+    "class": {
+      "byLips": "close",
+      "byTongue": "front",
+      "byLipsShape": "unrounded",
+      "squred": false
+    },
+    "lips": "lips[0]",
+    "tongue": "tongue[0]"
+  },
+"i-◻": {
+    "title": "i-◻",
+    "class": {
+      "byLips": "close",
+      "byTongue": "front",
+      "byLipsShape": "unrounded",
+      "squred": true
+    },
+    "lips": "lips[14]",
+    "tongue": "tongue[0]"
+  },
+"y": {
+    "title": "y",
+    "class": { "byLips": "close", "byTongue": "front", "byLipsShape": "rounded" },
+    "lips": "lips[1]",
+    "tongue": "tongue[0]"
+  },
+"I": {
+    "title": "I",
+    "class": {
+      "byLips": "close",
+      "byTongue": "front",
+      "byLipsShape": "unrounded",
+      "squred": false
+    },
+    "lips": "lips[2]",
+    "tongue": "tongue[1]"
+  },
+"I-◻": {
+    "title": "I-◻",
+    "class": {
+      "byLips": "close",
+      "byTongue": "front",
+      "byLipsShape": "unrounded",
+      "squred": true
+    },
+    "lips": "lips[15]",
+    "tongue": "tongue[1]"
+  },
+"Y": {
+    "title": "Y",
+    "class": { "byLips": "close", "byTongue": "front", "byLipsShape": "rounded" },
+    "lips": "lips[3]",
+    "tongue": "tongue[1]"
+  },
+"ɨ": {
+    "title": "ɨ",
+    "class": {
+      "byLips": "close",
+      "byTongue": "central",
+      "byLipsShape": "unrounded",
+      "squred": false
+    },
+    "lips": "lips[0]",
+    "tongue": "tongue[2]"
+  },
+"ɨ-◻": {
+    "title": "ɨ-◻",
+    "class": {
+      "byLips": "close",
+      "byTongue": "central",
+      "byLipsShape": "unrounded",
+      "squred": true
+    },
+    "lips": "lips[14]",
+    "tongue": "tongue[2]"
+  },
+"ʉ": {
+    "title": "ʉ",
+    "class": { "byLips": "close", "byTongue": "central", "byLipsShape": "rounded" },
+    "lips": "lips[1]",
+    "tongue": "tongue[2]"
+  },
+"ʊ": {
+    "title": "ʊ",
+    "class": { "byLips": "close", "byTongue": "central", "byLipsShape": "rounded" },
+    "lips": "lips[4]",
+    "tongue": "tongue[3]"
+  },
+"ʊ-◻": {
+    "title": "ʊ-◻",
+    "class": {
+      "byLips": "close",
+      "byTongue": "central",
+      "byLipsShape": "halfrounded",
+      "squred": true
+    },
+    "lips": "lips[20]",
+    "tongue": "tongue[3]"
+  },
+"ɯ": {
+    "title": "ɯ",
+    "class": {
+      "byLips": "close",
+      "byTongue": "back",
+      "byLipsShape": "unrounded",
+      "squred": false
+    },
+    "lips": "lips[0]",
+    "tongue": "tongue[4]"
+  },
+"ɯ-◻": {
+    "title": "ɯ-◻",
+    "class": {
+      "byLips": "close",
+      "byTongue": "back",
+      "byLipsShape": "unrounded",
+      "squred": true
+    },
+    "lips": "lips[14]",
+    "tongue": "tongue[4]"
+  },
+"u": {
+    "title": "u",
+    "class": { "byLips": "close", "byTongue": "back", "byLipsShape": "rounded" },
+    "lips": "lips[1]",
+    "tongue": "tongue[4]"
+  },
+"e": {
+    "title": "e",
+    "class": {
+      "byLips": "close-mid",
+      "byTongue": "front",
+      "byLipsShape": "unrounded",
+      "squred": false
+    },
+    "lips": "lips[5]",
+    "tongue": "tongue[5]"
+  },
+"e-◻": {
+    "title": "e-◻",
+    "class": {
+      "byLips": "close-mid",
+      "byTongue": "front",
+      "byLipsShape": "unrounded",
+      "squred": true
+    },
+    "lips": "lips[16]",
+    "tongue": "tongue[5]"
+  },
+"ø": {
+    "title": "ø",
+    "class": { "byLips": "close-mid", "byTongue": "front", "byLipsShape": "rounded" },
+    "lips": "lips[6]",
+    "tongue": "tongue[5]"
+  },
+"ɘ": {
+    "title": "ɘ",
+    "class": {
+      "byLips": "close-mid",
+      "byTongue": "central",
+      "byLipsShape": "unrounded",
+      "squred": false
+    },
+    "lips": "lips[5]",
+    "tongue": "tongue[6]"
+  },
+"ɘ-◻": {
+    "title": "ɘ-◻",
+    "class": {
+      "byLips": "close-mid",
+      "byTongue": "central",
+      "byLipsShape": "unrounded",
+      "squred": true
+    },
+    "lips": "lips[16]",
+    "tongue": "tongue[6]"
+  },
+"ɵ": {
+    "title": "ɵ",
+    "class": { "byLips": "close-mid", "byTongue": "central", "byLipsShape": "rounded" },
+    "lips": "lips[6]",
+    "tongue": "tongue[6]"
+  },
+"ə": {
+    "title": "ə",
+    "class": { "byLips": "close-mid", "byTongue": "central", "byLipsShape": "rounded" },
+    "lips": "lips[7]",
+    "tongue": "tongue[7]"
+  },
+"ə-◻": {
+    "title": "ə-◻",
+    "class": {
+      "byLips": "close-mid",
+      "byTongue": "central",
+      "byLipsShape": "halfrounded",
+      "squred": true
+    },
+    "lips": "lips[21]",
+    "tongue": "tongue[7]"
+  },
+"ɤ": {
+    "title": "ɤ",
+    "class": {
+      "byLips": "close-mid",
+      "byTongue": "back",
+      "byLipsShape": "unrounded",
+      "squred": false
+    },
+    "lips": "lips[5]",
+    "tongue": "tongue[8]"
+  },
+"ɤ-◻": {
+    "title": "ɤ-◻",
+    "class": {
+      "byLips": "close-mid",
+      "byTongue": "back",
+      "byLipsShape": "unrounded",
+      "squred": true
+    },
+    "lips": "lips[16]",
+    "tongue": "tongue[8]"
+  },
+"o": {
+    "title": "o",
+    "class": { "byLips": "close-mid", "byTongue": "back", "byLipsShape": "rounded" },
+    "lips": "lips[6]",
+    "tongue": "tongue[8]"
+  },
+"ɛ": {
+    "title": "ɛ",
+    "class": {
+      "byLips": "open-mid",
+      "byTongue": "front",
+      "byLipsShape": "unrounded",
+      "squred": false
+    },
+    "lips": "lips[8]",
+    "tongue": "tongue[9]"
+  },
+"ɛ-◻": {
+    "title": "ɛ-◻",
+    "class": {
+      "byLips": "open-mid",
+      "byTongue": "front",
+      "byLipsShape": "unrounded",
+      "squred": true
+    },
+    "lips": "lips[17]",
+    "tongue": "tongue[9]"
+  },
+"œ": {
+    "title": "œ",
+    "class": { "byLips": "open-mid", "byTongue": "front", "byLipsShape": "rounded" },
+    "lips": "lips[9]",
+    "tongue": "tongue[9]"
+  },
+"æ": {
+    "title": "æ",
+    "class": {
+      "byLips": "open-mid",
+      "byTongue": "front",
+      "byLipsShape": "unrounded",
+      "squred": false
+    },
+    "lips": "lips[10]",
+    "tongue": "tongue[10]"
+  },
+"æ-◻": {
+    "title": "æ-◻",
+    "class": {
+      "byLips": "open-mid",
+      "byTongue": "front",
+      "byLipsShape": "unrounded",
+      "squred": true
+    },
+    "lips": "lips[18]",
+    "tongue": "tongue[10]"
+  },
+"ɜ": {
+    "title": "ɜ",
+    "class": {
+      "byLips": "open-mid",
+      "byTongue": "central",
+      "byLipsShape": "unrounded",
+      "squred": false
+    },
+    "lips": "lips[8]",
+    "tongue": "tongue[11]"
+  },
+"ɜ-◻": {
+    "title": "ɜ-◻",
+    "class": {
+      "byLips": "open-mid",
+      "byTongue": "central",
+      "byLipsShape": "unrounded",
+      "squred": true
+    },
+    "lips": "lips[17]",
+    "tongue": "tongue[11]"
+  },
+"ɞ": {
+    "title": "ɞ",
+    "class": { "byLips": "open-mid", "byTongue": "central", "byLipsShape": "rounded" },
+    "lips": "lips[9]",
+    "tongue": "tongue[11]"
+  },
+"ɐ": {
+    "title": "ɐ",
+    "class": { "byLips": "open-mid", "byTongue": "central", "byLipsShape": "rounded" },
+    "lips": "lips[11]",
+    "tongue": "tongue[12]"
+  },
+"ɐ-◻": {
+    "title": "ɐ-◻",
+    "class": {
+      "byLips": "open-mid",
+      "byTongue": "central",
+      "byLipsShape": "halfrounded",
+      "squred": true
+    },
+    "lips": "lips[22]",
+    "tongue": "tongue[12]"
+  },
+"ʌ": {
+    "title": "ʌ",
+    "class": {
+      "byLips": "open-mid",
+      "byTongue": "back",
+      "byLipsShape": "unrounded",
+      "squred": false
+    },
+    "lips": "lips[8]",
+    "tongue": "tongue[13]"
+  },
+"ʌ-◻": {
+    "title": "ʌ-◻",
+    "class": {
+      "byLips": "open-mid",
+      "byTongue": "back",
+      "byLipsShape": "unrounded",
+      "squred": true
+    },
+    "lips": "lips[17]",
+    "tongue": "tongue[13]"
+  },
+"ɔ": {
+    "title": "ɔ",
+    "class": { "byLips": "open-mid", "byTongue": "back", "byLipsShape": "rounded" },
+    "lips": "lips[9]",
+    "tongue": "tongue[13]"
+  },
+"a": {
+    "title": "a",
+    "class": {
+      "byLips": "open",
+      "byTongue": "front",
+      "byLipsShape": "unrounded",
+      "squred": false
+    },
+    "lips": "lips[12]",
+    "tongue": "tongue[14]"
+  },
+"a-◻": {
+    "title": "a-◻",
+    "class": {
+      "byLips": "open",
+      "byTongue": "front",
+      "byLipsShape": "unrounded",
+      "squred": true
+    },
+    "lips": "lips[19]",
+    "tongue": "tongue[14]"
+  },
+"ɶ": {
+    "title": "ɶ",
+    "class": { "byLips": "open", "byTongue": "front", "byLipsShape": "rounded" },
+    "lips": "lips[13]",
+    "tongue": "tongue[14]"
+  },
+"ɑ": {
+    "title": "ɑ",
+    "class": {
+      "byLips": "open",
+      "byTongue": "back",
+      "byLipsShape": "unrounded",
+      "squred": false
+    },
+    "lips": "lips[12]",
+    "tongue": "tongue[15]"
+  },
+"ɑ-◻": {
+    "title": "ɑ-◻",
+    "class": {
+      "byLips": "open",
+      "byTongue": "back",
+      "byLipsShape": "unrounded",
+      "squred": true
+    },
+    "lips": "lips[19]",
+    "tongue": "tongue[15]"
+  },
+"ɒ": {
+    "title": "ɒ",
+    "class": { "byLips": "open", "byTongue": "back", "byLipsShape": "rounded" },
+    "lips": "lips[13]",
+    "tongue": "tongue[15]"
+  },
+"ɛ̃": {
+    "title": "ɛ̃",
+    "class": {
+      "byLips": "open-mid",
+      "byTongue": "front",
+      "byLipsShape": "unrounded",
+      "squred": false,
+      "nasal": true
+    },
+    "lips": "lips[8]",
+    "tongue": "tongue[9]"
+  },
+"œ̃": {
+    "title": "œ̃",
+    "class": {
+      "byLips": "open-mid",
+      "byTongue": "front",
+      "byLipsShape": "rounded",
+      "nasal": true
+    },
+    "lips": "lips[9]",
+    "tongue": "tongue[9]"
+  },
+"ɑ̃": {
+    "title": "ɑ̃",
+    "class": {
+      "byLips": "open",
+      "byTongue": "back",
+      "byLipsShape": "unrounded",
+      "squred": false,
+      "nasal": true
+    },
+    "lips": "lips[12]",
+    "tongue": "tongue[15]"
+  },
+"ɔ̃": {
+    "title": "ɔ̃",
+    "class": {
+      "byLips": "open-mid",
+      "byTongue": "back",
+      "byLipsShape": "rounded",
+      "nasal": true
+    },
+    "lips": "lips[9]",
+    "tongue": "tongue[13]"
+  },
+  "Ĩ": {
+    "title": "Ĩ",
+    "class": {
+      "byLips": "close",
+      "byTongue": "front",
+      "byLipsShape": "unrounded",
+      "squred": false,
+      "nasal": true
+    },
+    "lips": "lips[2]",
+    "tongue": "tongue[1]"
+  }
+}
