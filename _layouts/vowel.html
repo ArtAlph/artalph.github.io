@@ -5,6 +5,13 @@ gridY: "28"
 ---
 {%- assign basic = site.data.basic -%}
 {%- assign vowel = site.data.vowel[page.name] -%}
+{%- if vowel.class.nasal %}
+{%- assign gridX = basic.grid.x.nasalVowel -%}
+{%- assign gridY = basic.grid.y.nasalVowel -%}
+{%- else %}
+{%- assign gridX = basic.grid.x.vowel -%}
+{%- assign gridY = basic.grid.y.vowel -%}
+{%- endif %}
 {% include opening.html -%}
 <title>{{ vowel.title }}</title>
 {% include style.html -%}
