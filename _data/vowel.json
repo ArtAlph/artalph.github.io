@@ -1,469 +1,469 @@
 {
-"i.svg": {
-    "title": "i",
-    "class": {
-      "byLips": "close",
-      "byTongue": "front",
-      "byLipsShape": "unrounded",
-      "squred": false
+  "i.svg": {
+      "title": "i",
+      "class": {
+        "byLips": "close",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": false
+      },
+      "lips": 0,
+      "tongue": 0
     },
-    "lips": 0,
-    "tongue": 0
-  },
-"i-◻.svg": {
-    "title": "i-◻",
-    "class": {
-      "byLips": "close",
-      "byTongue": "front",
-      "byLipsShape": "unrounded",
-      "squred": true
+  "i-◻.svg": {
+      "title": "i-◻",
+      "class": {
+        "byLips": "close",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": true
+      },
+      "lips": 14,
+      "tongue": 0
     },
-    "lips": "14",
-    "tongue": "0"
-  },
-"y.svg": {
-    "title": "y",
-    "class": { "byLips": "close", "byTongue": "front", "byLipsShape": "rounded" },
-    "lips": "1",
-    "tongue": "0"
-  },
-"I.svg": {
-    "title": "I",
-    "class": {
-      "byLips": "close",
-      "byTongue": "front",
-      "byLipsShape": "unrounded",
-      "squred": false
+  "y.svg": {
+      "title": "y",
+      "class": { "byLips": "close", "byTongue": "front", "byLipsShape": "rounded" },
+      "lips": 1,
+      "tongue": 0
     },
-    "lips": "2",
-    "tongue": "1"
-  },
-"I-◻.svg": {
-    "title": "I-◻",
-    "class": {
-      "byLips": "close",
-      "byTongue": "front",
-      "byLipsShape": "unrounded",
-      "squred": true
+  "I.svg": {
+      "title": "I",
+      "class": {
+        "byLips": "close",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": false
+      },
+      "lips": 2,
+      "tongue": 1
     },
-    "lips": "15",
-    "tongue": "1"
-  },
-"Y.svg": {
-    "title": "Y",
-    "class": { "byLips": "close", "byTongue": "front", "byLipsShape": "rounded" },
-    "lips": "3",
-    "tongue": "1"
-  },
-"ɨ.svg": {
-    "title": "ɨ",
-    "class": {
-      "byLips": "close",
-      "byTongue": "central",
-      "byLipsShape": "unrounded",
-      "squred": false
+  "I-◻.svg": {
+      "title": "I-◻",
+      "class": {
+        "byLips": "close",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": true
+      },
+      "lips": 15,
+      "tongue": 1
     },
-    "lips": "0",
-    "tongue": "2"
-  },
-"ɨ-◻.svg": {
-    "title": "ɨ-◻",
-    "class": {
-      "byLips": "close",
-      "byTongue": "central",
-      "byLipsShape": "unrounded",
-      "squred": true
+  "Y.svg": {
+      "title": "Y",
+      "class": { "byLips": "close", "byTongue": "front", "byLipsShape": "rounded" },
+      "lips": 3,
+      "tongue": 1
     },
-    "lips": "14",
-    "tongue": "2"
-  },
-"ʉ.svg": {
-    "title": "ʉ",
-    "class": { "byLips": "close", "byTongue": "central", "byLipsShape": "rounded" },
-    "lips": "1",
-    "tongue": "2"
-  },
-"ʊ.svg": {
-    "title": "ʊ",
-    "class": { "byLips": "close", "byTongue": "central", "byLipsShape": "rounded" },
-    "lips": "4",
-    "tongue": "3"
-  },
-"ʊ-◻.svg": {
-    "title": "ʊ-◻",
-    "class": {
-      "byLips": "close",
-      "byTongue": "central",
-      "byLipsShape": "halfrounded",
-      "squred": true
+  "ɨ.svg": {
+      "title": "ɨ",
+      "class": {
+        "byLips": "close",
+        "byTongue": "central",
+        "byLipsShape": "unrounded",
+        "squred": false
+      },
+      "lips": 0,
+      "tongue": 2
     },
-    "lips": "20",
-    "tongue": "3"
-  },
-"ɯ.svg": {
-    "title": "ɯ",
-    "class": {
-      "byLips": "close",
-      "byTongue": "back",
-      "byLipsShape": "unrounded",
-      "squred": false
+  "ɨ-◻.svg": {
+      "title": "ɨ-◻",
+      "class": {
+        "byLips": "close",
+        "byTongue": "central",
+        "byLipsShape": "unrounded",
+        "squred": true
+      },
+      "lips": 14,
+      "tongue": 2
     },
-    "lips": "0",
-    "tongue": "4"
-  },
-"ɯ-◻.svg": {
-    "title": "ɯ-◻",
-    "class": {
-      "byLips": "close",
-      "byTongue": "back",
-      "byLipsShape": "unrounded",
-      "squred": true
+  "ʉ.svg": {
+      "title": "ʉ",
+      "class": { "byLips": "close", "byTongue": "central", "byLipsShape": "rounded" },
+      "lips": 1,
+      "tongue": 2
     },
-    "lips": "14",
-    "tongue": "4"
-  },
-"u.svg": {
-    "title": "u",
-    "class": { "byLips": "close", "byTongue": "back", "byLipsShape": "rounded" },
-    "lips": "1",
-    "tongue": "4"
-  },
-"e.svg": {
-    "title": "e",
-    "class": {
-      "byLips": "close-mid",
-      "byTongue": "front",
-      "byLipsShape": "unrounded",
-      "squred": false
+  "ʊ.svg": {
+      "title": "ʊ",
+      "class": { "byLips": "close", "byTongue": "central", "byLipsShape": "rounded" },
+      "lips": 4,
+      "tongue": 3
     },
-    "lips": "5",
-    "tongue": "5"
-  },
-"e-◻.svg": {
-    "title": "e-◻",
-    "class": {
-      "byLips": "close-mid",
-      "byTongue": "front",
-      "byLipsShape": "unrounded",
-      "squred": true
+  "ʊ-◻.svg": {
+      "title": "ʊ-◻",
+      "class": {
+        "byLips": "close",
+        "byTongue": "central",
+        "byLipsShape": "halfrounded",
+        "squred": true
+      },
+      "lips": 20,
+      "tongue": 3
     },
-    "lips": "16",
-    "tongue": "5"
-  },
-"ø.svg": {
-    "title": "ø",
-    "class": { "byLips": "close-mid", "byTongue": "front", "byLipsShape": "rounded" },
-    "lips": "6",
-    "tongue": "5"
-  },
-"ɘ.svg": {
-    "title": "ɘ",
-    "class": {
-      "byLips": "close-mid",
-      "byTongue": "central",
-      "byLipsShape": "unrounded",
-      "squred": false
+  "ɯ.svg": {
+      "title": "ɯ",
+      "class": {
+        "byLips": "close",
+        "byTongue": "back",
+        "byLipsShape": "unrounded",
+        "squred": false
+      },
+      "lips": 0,
+      "tongue": 4
     },
-    "lips": "5",
-    "tongue": "6"
-  },
-"ɘ-◻.svg": {
-    "title": "ɘ-◻",
-    "class": {
-      "byLips": "close-mid",
-      "byTongue": "central",
-      "byLipsShape": "unrounded",
-      "squred": true
+  "ɯ-◻.svg": {
+      "title": "ɯ-◻",
+      "class": {
+        "byLips": "close",
+        "byTongue": "back",
+        "byLipsShape": "unrounded",
+        "squred": true
+      },
+      "lips": 14,
+      "tongue": 4
     },
-    "lips": "16",
-    "tongue": "6"
-  },
-"ɵ.svg": {
-    "title": "ɵ",
-    "class": { "byLips": "close-mid", "byTongue": "central", "byLipsShape": "rounded" },
-    "lips": "6",
-    "tongue": "6"
-  },
-"ə.svg": {
-    "title": "ə",
-    "class": { "byLips": "close-mid", "byTongue": "central", "byLipsShape": "rounded" },
-    "lips": "7",
-    "tongue": "7"
-  },
-"ə-◻.svg": {
-    "title": "ə-◻",
-    "class": {
-      "byLips": "close-mid",
-      "byTongue": "central",
-      "byLipsShape": "halfrounded",
-      "squred": true
+  "u.svg": {
+      "title": "u",
+      "class": { "byLips": "close", "byTongue": "back", "byLipsShape": "rounded" },
+      "lips": 1,
+      "tongue": 4
     },
-    "lips": "21",
-    "tongue": "7"
-  },
-"ɤ.svg": {
-    "title": "ɤ",
-    "class": {
-      "byLips": "close-mid",
-      "byTongue": "back",
-      "byLipsShape": "unrounded",
-      "squred": false
+  "e.svg": {
+      "title": "e",
+      "class": {
+        "byLips": "close-mid",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": false
+      },
+      "lips": 5,
+      "tongue": 5
     },
-    "lips": "5",
-    "tongue": "8"
-  },
-"ɤ-◻.svg": {
-    "title": "ɤ-◻",
-    "class": {
-      "byLips": "close-mid",
-      "byTongue": "back",
-      "byLipsShape": "unrounded",
-      "squred": true
+  "e-◻.svg": {
+      "title": "e-◻",
+      "class": {
+        "byLips": "close-mid",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": true
+      },
+      "lips": 16,
+      "tongue": 5
     },
-    "lips": "16",
-    "tongue": "8"
-  },
-"o.svg": {
-    "title": "o",
-    "class": { "byLips": "close-mid", "byTongue": "back", "byLipsShape": "rounded" },
-    "lips": "6",
-    "tongue": "8"
-  },
-"ɛ.svg": {
-    "title": "ɛ",
-    "class": {
-      "byLips": "open-mid",
-      "byTongue": "front",
-      "byLipsShape": "unrounded",
-      "squred": false
+  "ø.svg": {
+      "title": "ø",
+      "class": { "byLips": "close-mid", "byTongue": "front", "byLipsShape": "rounded" },
+      "lips": 6,
+      "tongue": 5
     },
-    "lips": "8",
-    "tongue": "9"
-  },
-"ɛ-◻.svg": {
-    "title": "ɛ-◻",
-    "class": {
-      "byLips": "open-mid",
-      "byTongue": "front",
-      "byLipsShape": "unrounded",
-      "squred": true
+  "ɘ.svg": {
+      "title": "ɘ",
+      "class": {
+        "byLips": "close-mid",
+        "byTongue": "central",
+        "byLipsShape": "unrounded",
+        "squred": false
+      },
+      "lips": 5,
+      "tongue": 6
     },
-    "lips": "17",
-    "tongue": "9"
-  },
-"œ.svg": {
-    "title": "œ",
-    "class": { "byLips": "open-mid", "byTongue": "front", "byLipsShape": "rounded" },
-    "lips": "9",
-    "tongue": "9"
-  },
-"æ.svg": {
-    "title": "æ",
-    "class": {
-      "byLips": "open-mid",
-      "byTongue": "front",
-      "byLipsShape": "unrounded",
-      "squred": false
+  "ɘ-◻.svg": {
+      "title": "ɘ-◻",
+      "class": {
+        "byLips": "close-mid",
+        "byTongue": "central",
+        "byLipsShape": "unrounded",
+        "squred": true
+      },
+      "lips": 16,
+      "tongue": 6
     },
-    "lips": "10",
-    "tongue": "10"
-  },
-"æ-◻.svg": {
-    "title": "æ-◻",
-    "class": {
-      "byLips": "open-mid",
-      "byTongue": "front",
-      "byLipsShape": "unrounded",
-      "squred": true
+  "ɵ.svg": {
+      "title": "ɵ",
+      "class": { "byLips": "close-mid", "byTongue": "central", "byLipsShape": "rounded" },
+      "lips": 6,
+      "tongue": 6
     },
-    "lips": "18",
-    "tongue": "10"
-  },
-"ɜ.svg": {
-    "title": "ɜ",
-    "class": {
-      "byLips": "open-mid",
-      "byTongue": "central",
-      "byLipsShape": "unrounded",
-      "squred": false
+  "ə.svg": {
+      "title": "ə",
+      "class": { "byLips": "close-mid", "byTongue": "central", "byLipsShape": "rounded" },
+      "lips": 7,
+      "tongue": 7
     },
-    "lips": "8",
-    "tongue": "11"
-  },
-"ɜ-◻.svg": {
-    "title": "ɜ-◻",
-    "class": {
-      "byLips": "open-mid",
-      "byTongue": "central",
-      "byLipsShape": "unrounded",
-      "squred": true
+  "ə-◻.svg": {
+      "title": "ə-◻",
+      "class": {
+        "byLips": "close-mid",
+        "byTongue": "central",
+        "byLipsShape": "halfrounded",
+        "squred": true
+      },
+      "lips": 21,
+      "tongue": 7
     },
-    "lips": "17",
-    "tongue": "11"
-  },
-"ɞ.svg": {
-    "title": "ɞ",
-    "class": { "byLips": "open-mid", "byTongue": "central", "byLipsShape": "rounded" },
-    "lips": "9",
-    "tongue": "11"
-  },
-"ɐ.svg": {
-    "title": "ɐ",
-    "class": { "byLips": "open-mid", "byTongue": "central", "byLipsShape": "rounded" },
-    "lips": "11",
-    "tongue": "12"
-  },
-"ɐ-◻.svg": {
-    "title": "ɐ-◻",
-    "class": {
-      "byLips": "open-mid",
-      "byTongue": "central",
-      "byLipsShape": "halfrounded",
-      "squred": true
+  "ɤ.svg": {
+      "title": "ɤ",
+      "class": {
+        "byLips": "close-mid",
+        "byTongue": "back",
+        "byLipsShape": "unrounded",
+        "squred": false
+      },
+      "lips": 5,
+      "tongue": 8
     },
-    "lips": "22",
-    "tongue": "12"
-  },
-"ʌ.svg": {
-    "title": "ʌ",
-    "class": {
-      "byLips": "open-mid",
-      "byTongue": "back",
-      "byLipsShape": "unrounded",
-      "squred": false
+  "ɤ-◻.svg": {
+      "title": "ɤ-◻",
+      "class": {
+        "byLips": "close-mid",
+        "byTongue": "back",
+        "byLipsShape": "unrounded",
+        "squred": true
+      },
+      "lips": 16,
+      "tongue": 8
     },
-    "lips": "8",
-    "tongue": "13"
-  },
-"ʌ-◻.svg": {
-    "title": "ʌ-◻",
-    "class": {
-      "byLips": "open-mid",
-      "byTongue": "back",
-      "byLipsShape": "unrounded",
-      "squred": true
+  "o.svg": {
+      "title": "o",
+      "class": { "byLips": "close-mid", "byTongue": "back", "byLipsShape": "rounded" },
+      "lips": 6,
+      "tongue": 8
     },
-    "lips": "17",
-    "tongue": "13"
-  },
-"ɔ.svg": {
-    "title": "ɔ",
-    "class": { "byLips": "open-mid", "byTongue": "back", "byLipsShape": "rounded" },
-    "lips": "9",
-    "tongue": "13"
-  },
-"a.svg": {
-    "title": "a",
-    "class": {
-      "byLips": "open",
-      "byTongue": "front",
-      "byLipsShape": "unrounded",
-      "squred": false
+  "ɛ.svg": {
+      "title": "ɛ",
+      "class": {
+        "byLips": "open-mid",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": false
+      },
+      "lips": 8,
+      "tongue": 9
     },
-    "lips": "12",
-    "tongue": "14"
-  },
-"a-◻.svg": {
-    "title": "a-◻",
-    "class": {
-      "byLips": "open",
-      "byTongue": "front",
-      "byLipsShape": "unrounded",
-      "squred": true
+  "ɛ-◻.svg": {
+      "title": "ɛ-◻",
+      "class": {
+        "byLips": "open-mid",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": true
+      },
+      "lips": 17,
+      "tongue": 9
     },
-    "lips": "19",
-    "tongue": "14"
-  },
-"ɶ.svg": {
-    "title": "ɶ",
-    "class": { "byLips": "open", "byTongue": "front", "byLipsShape": "rounded" },
-    "lips": "13",
-    "tongue": "14"
-  },
-"ɑ.svg": {
-    "title": "ɑ",
-    "class": {
-      "byLips": "open",
-      "byTongue": "back",
-      "byLipsShape": "unrounded",
-      "squred": false
+  "œ.svg": {
+      "title": "œ",
+      "class": { "byLips": "open-mid", "byTongue": "front", "byLipsShape": "rounded" },
+      "lips": 9,
+      "tongue": 9
     },
-    "lips": "12",
-    "tongue": "15"
-  },
-"ɑ-◻.svg": {
-    "title": "ɑ-◻",
-    "class": {
-      "byLips": "open",
-      "byTongue": "back",
-      "byLipsShape": "unrounded",
-      "squred": true
+  "æ.svg": {
+      "title": "æ",
+      "class": {
+        "byLips": "open-mid",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": false
+      },
+      "lips": 10,
+      "tongue": 10
     },
-    "lips": "19",
-    "tongue": "15"
-  },
-"ɒ.svg": {
-    "title": "ɒ",
-    "class": { "byLips": "open", "byTongue": "back", "byLipsShape": "rounded" },
-    "lips": "13",
-    "tongue": "15"
-  },
-"ɛ̃.svg": {
-    "title": "ɛ̃",
-    "class": {
-      "byLips": "open-mid",
-      "byTongue": "front",
-      "byLipsShape": "unrounded",
-      "squred": false,
-      "nasal": true
+  "æ-◻.svg": {
+      "title": "æ-◻",
+      "class": {
+        "byLips": "open-mid",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": true
+      },
+      "lips": 18,
+      "tongue": 10
     },
-    "lips": "8",
-    "tongue": "9"
-  },
-"œ̃.svg": {
-    "title": "œ̃",
-    "class": {
-      "byLips": "open-mid",
-      "byTongue": "front",
-      "byLipsShape": "rounded",
-      "nasal": true
+  "ɜ.svg": {
+      "title": "ɜ",
+      "class": {
+        "byLips": "open-mid",
+        "byTongue": "central",
+        "byLipsShape": "unrounded",
+        "squred": false
+      },
+      "lips": 8,
+      "tongue": 11
     },
-    "lips": "9",
-    "tongue": "9"
-  },
-"ɑ̃.svg": {
-    "title": "ɑ̃",
-    "class": {
-      "byLips": "open",
-      "byTongue": "back",
-      "byLipsShape": "unrounded",
-      "squred": false,
-      "nasal": true
+  "ɜ-◻.svg": {
+      "title": "ɜ-◻",
+      "class": {
+        "byLips": "open-mid",
+        "byTongue": "central",
+        "byLipsShape": "unrounded",
+        "squred": true
+      },
+      "lips": 17,
+      "tongue": 11
     },
-    "lips": "12",
-    "tongue": "15"
-  },
-"ɔ̃.svg": {
-    "title": "ɔ̃",
-    "class": {
-      "byLips": "open-mid",
-      "byTongue": "back",
-      "byLipsShape": "rounded",
-      "nasal": true
+  "ɞ.svg": {
+      "title": "ɞ",
+      "class": { "byLips": "open-mid", "byTongue": "central", "byLipsShape": "rounded" },
+      "lips": 9,
+      "tongue": 11
     },
-    "lips": "9",
-    "tongue": "13"
-  },
-  "Ĩ.svg": {
-    "title": "Ĩ",
-    "class": {
-      "byLips": "close",
-      "byTongue": "front",
-      "byLipsShape": "unrounded",
-      "squred": false,
-      "nasal": true
+  "ɐ.svg": {
+      "title": "ɐ",
+      "class": { "byLips": "open-mid", "byTongue": "central", "byLipsShape": "rounded" },
+      "lips": 11,
+      "tongue": 12
     },
-    "lips": "2",
-    "tongue": "1"
+  "ɐ-◻.svg": {
+      "title": "ɐ-◻",
+      "class": {
+        "byLips": "open-mid",
+        "byTongue": "central",
+        "byLipsShape": "halfrounded",
+        "squred": true
+      },
+      "lips": 22,
+      "tongue": 12
+    },
+  "ʌ.svg": {
+      "title": "ʌ",
+      "class": {
+        "byLips": "open-mid",
+        "byTongue": "back",
+        "byLipsShape": "unrounded",
+        "squred": false
+      },
+      "lips": 8,
+      "tongue": 13
+    },
+  "ʌ-◻.svg": {
+      "title": "ʌ-◻",
+      "class": {
+        "byLips": "open-mid",
+        "byTongue": "back",
+        "byLipsShape": "unrounded",
+        "squred": true
+      },
+      "lips": 17,
+      "tongue": 13
+    },
+  "ɔ.svg": {
+      "title": "ɔ",
+      "class": { "byLips": "open-mid", "byTongue": "back", "byLipsShape": "rounded" },
+      "lips": 9,
+      "tongue": 13
+    },
+  "a.svg": {
+      "title": "a",
+      "class": {
+        "byLips": "open",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": false
+      },
+      "lips": 12,
+      "tongue": 14
+    },
+  "a-◻.svg": {
+      "title": "a-◻",
+      "class": {
+        "byLips": "open",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": true
+      },
+      "lips": 19,
+      "tongue": 14
+    },
+  "ɶ.svg": {
+      "title": "ɶ",
+      "class": { "byLips": "open", "byTongue": "front", "byLipsShape": "rounded" },
+      "lips": 13,
+      "tongue": 14
+    },
+  "ɑ.svg": {
+      "title": "ɑ",
+      "class": {
+        "byLips": "open",
+        "byTongue": "back",
+        "byLipsShape": "unrounded",
+        "squred": false
+      },
+      "lips": 12,
+      "tongue": 15
+    },
+  "ɑ-◻.svg": {
+      "title": "ɑ-◻",
+      "class": {
+        "byLips": "open",
+        "byTongue": "back",
+        "byLipsShape": "unrounded",
+        "squred": true
+      },
+      "lips": 19,
+      "tongue": 15
+    },
+  "ɒ.svg": {
+      "title": "ɒ",
+      "class": { "byLips": "open", "byTongue": "back", "byLipsShape": "rounded" },
+      "lips": 13,
+      "tongue": 15
+    },
+  "ɛ̃.svg": {
+      "title": "ɛ̃",
+      "class": {
+        "byLips": "open-mid",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": false,
+        "nasal": true
+      },
+      "lips": 8,
+      "tongue": 9
+    },
+  "œ̃.svg": {
+      "title": "œ̃",
+      "class": {
+        "byLips": "open-mid",
+        "byTongue": "front",
+        "byLipsShape": "rounded",
+        "nasal": true
+      },
+      "lips": 9,
+      "tongue": 9
+    },
+  "ɑ̃.svg": {
+      "title": "ɑ̃",
+      "class": {
+        "byLips": "open",
+        "byTongue": "back",
+        "byLipsShape": "unrounded",
+        "squred": false,
+        "nasal": true
+      },
+      "lips": 12,
+      "tongue": 15
+    },
+  "ɔ̃.svg": {
+      "title": "ɔ̃",
+      "class": {
+        "byLips": "open-mid",
+        "byTongue": "back",
+        "byLipsShape": "rounded",
+        "nasal": true
+      },
+      "lips": 9,
+      "tongue": 13
+    },
+    "Ĩ.svg": {
+      "title": "Ĩ",
+      "class": {
+        "byLips": "close",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": false,
+        "nasal": true
+      },
+      "lips": 2,
+      "tongue": 1
+    }
   }
-}
