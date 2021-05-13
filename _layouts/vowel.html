@@ -28,6 +28,6 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 {%- else %}
 <ellipse cx="{{ l.cx }}" cy="{{ l.cy }}" rx="{{ l.rx }}" ry="{{ l.ry }}" class="lips"/>
 {%- endif %}
-<path d="{{ basic.tongue[vowel.tongue] }}" class="activeFilled"/>
+<path d="{{ site.data.tongue[vowel.tongue] }}" class="activeFilled"/>
 {% include copyright.html -%}
 </svg>
