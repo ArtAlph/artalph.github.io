@@ -22,7 +22,7 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 <path d="M{{ gridX }},{{ gridY }}h100m-100,25h100m-100,25h100m-100,25h100m-100,25h100m-100,-100v100m25,-100v100m25,-100v100m25,-100v100m25,-100v100" class="grid"/>
 {%- if vowel.class.nasal %}{{ basic.teeth.nasalVowel }}{% else %}{{ basic.teeth.vowel }}{% endif %}
 <path d="{% if vowel.class.nasal %}{{ basic.shape.nasalVowel }}{% else %}{{ basic.shape.vowel }}{% endif %}" mask="url(#{{ vowel.title }}_hole)" class="shape"/>
-{% include lips.html -%}
+<{%- include lips.html %} class="lips"/>
 <path d="{{ site.data.tongue[vowel.tongue] }}" class="activeFilled"/>
 {% include copyright.html -%}
 </svg>
