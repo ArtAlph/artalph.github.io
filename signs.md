@@ -80,7 +80,6 @@ New signs are under development.
   <td>{% include figure.html url="signs/vowels/a.svg" title="a" %}
   {% include figure.html url="signs/vowels/a-◻.svg" title="a-◻" %}<br>
   {% include figure.html url="signs/vowels/ɶ.svg" title="ɶ" %}
-  {% include figure.html url="signs/vowels/ɶ-◻.svg" title="ɶ-◻" %}
   </td><td></td>
   <td>{% include figure.html url="signs/vowels/ɑ.svg" title="ɑ" %}
   {% include figure.html url="signs/vowels/ɑ-◻.svg" title="ɑ-◻" %}<br>
