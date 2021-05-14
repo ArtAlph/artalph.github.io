@@ -144,3 +144,79 @@ Under development.
   </tr>
 </tbody>
 </table>
+
+### Symbols for **MODES OF ARTICULATION** for consonants
+
+<table class="hcenter bottomcap">
+    <caption>Artalph inventory: <strong>symbols</strong> for MODES of articulation for CONSONANTS</caption>
+    <thead>
+      <tr>
+        <th>N</th>
+        <th>Symbols</th>
+        <th>Meaning</th>
+        <th>Pictographic metaphor – combination of icons</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>{% include figure.html url="signs/mods/signs/plosive.svg" title="Plosive" height="40" caption=false %}</td>
+        <td>Plosive</td>
+        <td>Sudden and single movement of interacting surfaces</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>{% include figure.html url="signs/mods/signs/trill.svg" title="Trill" height="40" caption=false %}</td>
+        <td>Trill</td>
+        <td>Repetitive interaction of surfaces, vibration</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>{% include figure.html url="signs/mods/signs/tap.svg" title="Tap" height="55" caption=false %}</td>
+        <td>Tap or flap</td>
+        <td>Single tap of one surface on another</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>{% include figure.html url="signs/mods/signs/fricative.svg" title="Fricative" height="45" caption=false %}</td>
+        <td>Fricative</td>
+        <td>Surfaces rubbing against one another</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>{% include figure.html url="signs/mods/signs/lateral.svg" title="Lateral" height="55" caption=false %}</td>
+        <td>Lateral</td>
+        <td>Free movement on the sides of interacting surfaces</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>{% include figure.html url="signs/mods/signs/lateral-fricative.svg" title="Lateral fricative" height="55" caption=false %}</td>
+        <td>Lateral fricative</td>
+        <td>Combination of 4 &amp; 5</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>{% include figure.html url="signs/mods/signs/affricate.svg" title="Affricate" height="50" caption=false %}</td>
+        <td>Affricate</td>
+        <td>Late release, movement occur only on a second try</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>{% include figure.html url="signs/mods/signs/clicks.svg" title="Clicks" height="50" caption=false %}</td>
+        <td>Clicks</td>
+        <td>Two points of contact ( ! = loudest consonants )</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>{% include figure.html url="signs/mods/signs/implosives.svg" title="Implosives" height="55" caption=false %}</td>
+        <td>Implosives</td>
+        <td>Ingressive and egressive airstream mechanism</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>{% include figure.html url="signs/mods/signs/ejectives.svg" title="Ejectives" height="50" caption=false %}</td>
+        <td>Ejectives</td>
+        <td>Simultaneous closure of the glottis, air ejection</td>
+      </tr>
+    </tbody>
+  </table>
