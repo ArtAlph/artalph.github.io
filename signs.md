@@ -87,7 +87,7 @@ New signs are under development.
   </td>
 </tr><tr>
   <td></td>
-  <th>Unrounded <img src="https://gist.githack.com/a1ip/76b32e18a46e890dc758e215f0902532/raw/80199ed460623506190e455ba102dc62ec432fe8/f-16.svg" width="18" height="18"/> / Rounded <img src="https://gist.githack.com/a1ip/76b32e18a46e890dc758e215f0902532/raw/80199ed460623506190e455ba102dc62ec432fe8/f-17.svg" width="18" height="18"/></th><td></td><td></td>
+  <th>Rounded <img src="https://gist.githack.com/a1ip/76b32e18a46e890dc758e215f0902532/raw/80199ed460623506190e455ba102dc62ec432fe8/f-17.svg" width="18" height="18"/> / Unrounded <img src="https://gist.githack.com/a1ip/76b32e18a46e890dc758e215f0902532/raw/80199ed460623506190e455ba102dc62ec432fe8/f-16.svg" width="18" height="18"/></th><td></td><td></td>
 </tr>
 </table>
 
