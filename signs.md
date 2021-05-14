@@ -148,7 +148,7 @@ Under development.
 ### Symbols for **MODES OF ARTICULATION** for consonants
 
 <table class="hcenter bottomcap">
-    <caption>Artalph inventory: <strong>symbols</strong> for MODES of articulation for CONSONANTS</caption>
+    <caption>{{ site.title }} inventory: <strong>symbols</strong> for MODES of articulation for CONSONANTS</caption>
     <thead>
       <tr>
         <th>N</th>
