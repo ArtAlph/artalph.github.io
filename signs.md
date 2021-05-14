@@ -11,7 +11,7 @@ and symbols as individual Works, are copyright © 2013 by Snejina Sonina. As of 
 freely available under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0) licence. 
 This licence allows non-commercial use, as long as attribution is given and the reproduction is under 
 the same licence. This licence does not authorize you to alter, transform, or build upon this work. 
-See <http://creativecommons.org/licenses/by-nc-nd/3.0/legalcode> for the complete terms.
+See <https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode> for the complete terms.
 
 Attribution:
 
