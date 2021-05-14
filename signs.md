@@ -29,7 +29,7 @@ New signs are under development.
 
 ### {{ site.title }} characters for **VOWELS** of the IPA
 
-<table>
+<table class="hcenter">
 <caption>{{ site.title }} <strong>characters</strong> for VOWELS of the IPA (the corresponding IPA signs are located under the characters)</caption>
 <tr>
   <th></th><th width="300">Front</th><th width="250">Central</th><th width="250">Back</th>
