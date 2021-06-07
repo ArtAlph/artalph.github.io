@@ -12,8 +12,8 @@ styles: ["grid", "gridCont", "activeFilled", "text", "teeth", "copyright", "shap
   {%- assign shape = basic.shape.approximant -%}
   {%- assign alveola = basic.alveola.default -%}
 {%- elsif consonant.labialapproximant %}
-  {%- assign gridX = basic.grid.x.consonant -%}
-  {%- assign gridY = basic.grid.y.consonant -%}
+  {%- assign gridX = basic.grid.x.approximant -%}
+  {%- assign gridY = basic.grid.y.approximant -%}
   {%- assign shape = basic.shape.labialapproximant -%}
   {%- assign alveola = basic.alveola.default -%}
 {%- elsif consonant.nasal %}
