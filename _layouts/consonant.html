@@ -4,11 +4,12 @@ styles: ["grid", "gridCont", "activeFilled", "text", "teeth", "copyright", "shap
 {%- assign basic = site.data.basic -%}
 {%- assign consonant = site.data.consonant[page.name] -%}
 {%- assign voiced = consonant.voiced -%}
-{%- assign mode = consonant.mode-%}
+{%- assign mode = consonant.mode -%}
 {%- if consonant.class.approximant %}
   {%- assign gridX = basic.grid.x.approximant -%}
   {%- assign gridY = basic.grid.y.approximant -%}
   {%- assign shape = basic.shape.approximant -%}
+  {%- assign alveola = basic.alveola.default -%}
 {%- elsif consonant.class.labialapproximant %}
   {%- assign gridX = basic.grid.x.consonant -%}
   {%- assign gridY = basic.grid.y.consonant -%}
@@ -30,7 +31,7 @@ styles: ["grid", "gridCont", "activeFilled", "text", "teeth", "copyright", "shap
 {% include style.html -%}
 <defs>
   {%- if consonant.voiced %}
-  {{ diacritic["voiced.svg"].defs }}
+  {{ site.data.diacritic["voiced.svg"].defs }}
   {%- endif %}
   {% include mode_symbol.html -%}
 </defs>
@@ -42,6 +43,6 @@ styles: ["grid", "gridCont", "activeFilled", "text", "teeth", "copyright", "shap
 {%- if consonant.voiced %}
 {{ diacritic["voiced.svg"].sign }}
 {%- endif %}
-<use xlink:href="#{{mode.title}}_mode" href="#{{mode.title}}_mode" class="in" transform="{{ site.data.mode_transform[consonant.mode_transform] }}"/>
+<use xlink:href="#{{ site.data.mode[mode].title }}_mode" href="#{{ site.data.mode[mode].title }}_mode" class="in" transform="{{ site.data.mode_transform[consonant.mode_transform] }}"/>
 {% include copyright.html -%}
 </svg> 
