@@ -1,0 +1,45 @@
+---
+styles: ["grid", "gridCont", "activeFilled", "text", "teeth", "copyright", "shape", "mode", "out"]
+---
+{%- assign basic = site.data.basic -%}
+{%- assign consonant = site.data.consonant[page.name] -%}
+{%- assign voiced = consonant.voiced -%}
+{%- assign mode = consonant.mode-%}
+{%- if consonant.class.approximant %}
+{%- assign gridX = basic.grid.x.approximant -%}
+{%- assign gridY = basic.grid.y.approximant -%}
+{%- assign shape = basic.shape.approximant -%}
+{%- elsif consonant.class.labialapproximant %}
+{%- assign shape = basic.shape.labialapproximant -%}
+{%- else %}
+{%- elsif consonant.class.nasal %}
+{%- assign gridX = basic.grid.x.consonant -%}
+{%- assign gridY = basic.grid.y.consonant -%}
+{%- assign shape = basic.shape.nasal -%}
+{%- assign alveola = basic.alveola.nasal -%}
+{%- else %}
+{%- assign gridX = basic.grid.x.consonant -%}
+{%- assign gridY = basic.grid.y.consonant -%}
+{%- assign shape = basic.shape.consonant -%}
+{%- assign alveola = basic.alveola.default -%}
+{%- endif %}
+{% include opening.html -%}
+<title>{{ consonant.title }}</title>
+{% include style.html -%}
+<defs>
+  {%- if consonant.voiced %}
+  {{ diacritic["voiced.svg"].defs }}
+  {%- endif %}
+  {% include mode_symbol.html -%}
+</defs>
+<path d="M{{ gridX }},{{ gridY }}h100m-100,25h100m-100,25h100m-100,25h100m-100,25h100m-100,-100v100m25,-100v100m25,-100v100m25,-100v100m25,-100v100" class="grid"/>
+{{ basic.teeth.consonant }}
+{{ alveola }}
+<path d="{{ shape }}" class="shape"/>
+<path d="{{ site.data.tongue[consonant.tongue] }}" class="activeFilled"/>
+{%- if consonant.voiced %}
+{{ diacritic["voiced.svg"].sign }}
+{%- endif %}
+<use xlink:href="#{{mode.title}}_mode" href="#{{mode.title}}_mode" class="in" transform="{{ site.data.mode_transform[consonant.mode_transform] }}"/>
+{% include copyright.html -%}
+</svg> 
