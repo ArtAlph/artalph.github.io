@@ -1,4 +1,4 @@
-{%- assign mode = site.data.mode[consonant.mode] -%}
+{%- assign mode = site.data.mode[mode_name] -%}
 {%- if mode.abase -%}
   {%- assign base = mode.abase -%}
 {%- else -%}
@@ -6,5 +6,7 @@
 {%- endif -%}
 <symbol id="{{ mode.title }}_mode" viewBox="-21,-21,242,62" width="100%" height="100%" class="mode">
   <polygon points="0,20 100,-80 200,20 100,120"/>
+  <g transform="{{ mode.transform }}">
   {{ base }}
+  </g>
   </symbol>
