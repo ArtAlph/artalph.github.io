@@ -45,6 +45,11 @@ defaults:
         exclude: "yes" # Exclude from sitemap.xml
   -
     scope:
+      path: "signs/consonants"
+    values:
+      layout: consonant
+  -
+    scope:
       path: "signs/vowels"
     values:
       layout: vowel
