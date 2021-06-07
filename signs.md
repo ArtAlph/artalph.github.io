@@ -27,6 +27,7 @@ PDF file with the first version of {{ site.longtitle }} is [here](/docs/sonina.a
 
 ### {{ site.title }} characters for pulmonic **CONSONANTS** of the IPA
 
+<div style="overflow-x: scroll;">
 <table class="hcenter bottomcap" width="2000">
 <caption>{{ site.title }} <strong>characters</strong> for PULMONIC CONSONANTS of the International Phonetic Alphabet</caption>
 <tr>
@@ -84,7 +85,8 @@ PDF file with the first version of {{ site.longtitle }} is [here](/docs/sonina.a
 <td></td><td></td><td></td><td>{% include figure.html url="signs/consonants/l.svg" title="l" %}</td><td></td><td>{% include figure.html url="signs/consonants/ɭ.svg" title="ɭ" %}</td><td>{% include figure.html url="signs/consonants/ʎ.svg" title="ʎ" %}</td><td>{% include figure.html url="signs/consonants/ʟ.svg" title="ʟ" %}</td><td></td><td></td><td></td>
 </tr>
 </table>
-
+</div>
+  
 ### {{ site.title }} characters for **VOWELS** of the IPA
 
 <table class="hcenter bottomcap">
