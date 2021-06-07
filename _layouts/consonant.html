@@ -6,22 +6,24 @@ styles: ["grid", "gridCont", "activeFilled", "text", "teeth", "copyright", "shap
 {%- assign voiced = consonant.voiced -%}
 {%- assign mode = consonant.mode-%}
 {%- if consonant.class.approximant %}
-{%- assign gridX = basic.grid.x.approximant -%}
-{%- assign gridY = basic.grid.y.approximant -%}
-{%- assign shape = basic.shape.approximant -%}
+  {%- assign gridX = basic.grid.x.approximant -%}
+  {%- assign gridY = basic.grid.y.approximant -%}
+  {%- assign shape = basic.shape.approximant -%}
 {%- elsif consonant.class.labialapproximant %}
-{%- assign shape = basic.shape.labialapproximant -%}
-{%- else %}
+  {%- assign gridX = basic.grid.x.consonant -%}
+  {%- assign gridY = basic.grid.y.consonant -%}
+  {%- assign shape = basic.shape.labialapproximant -%}
+  {%- assign alveola = basic.alveola.default -%}
 {%- elsif consonant.class.nasal %}
-{%- assign gridX = basic.grid.x.consonant -%}
-{%- assign gridY = basic.grid.y.consonant -%}
-{%- assign shape = basic.shape.nasal -%}
-{%- assign alveola = basic.alveola.nasal -%}
+  {%- assign gridX = basic.grid.x.consonant -%}
+  {%- assign gridY = basic.grid.y.consonant -%}
+  {%- assign shape = basic.shape.nasal -%}
+  {%- assign alveola = basic.alveola.nasal -%}
 {%- else %}
-{%- assign gridX = basic.grid.x.consonant -%}
-{%- assign gridY = basic.grid.y.consonant -%}
-{%- assign shape = basic.shape.consonant -%}
-{%- assign alveola = basic.alveola.default -%}
+  {%- assign gridX = basic.grid.x.consonant -%}
+  {%- assign gridY = basic.grid.y.consonant -%}
+  {%- assign shape = basic.shape.consonant -%}
+  {%- assign alveola = basic.alveola.default -%}
 {%- endif %}
 {% include opening.html -%}
 <title>{{ consonant.title }}</title>
