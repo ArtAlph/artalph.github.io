@@ -6,17 +6,17 @@ styles: ["grid", "gridCont", "activeFilled", "text", "teeth", "copyright", "shap
 {%- assign voiced = consonant.voiced -%}
 {%- assign mode_name = consonant.mode -%}
 {%- assign mode_styles = site.data.mode[mode_name].styles -%}
-{%- if consonant.class.approximant %}
+{%- if consonant.approximant %}
   {%- assign gridX = basic.grid.x.approximant -%}
   {%- assign gridY = basic.grid.y.approximant -%}
   {%- assign shape = basic.shape.approximant -%}
   {%- assign alveola = basic.alveola.default -%}
-{%- elsif consonant.class.labialapproximant %}
+{%- elsif consonant.labialapproximant %}
   {%- assign gridX = basic.grid.x.consonant -%}
   {%- assign gridY = basic.grid.y.consonant -%}
   {%- assign shape = basic.shape.labialapproximant -%}
   {%- assign alveola = basic.alveola.default -%}
-{%- elsif consonant.class.nasal %}
+{%- elsif consonant.nasal %}
   {%- assign gridX = basic.grid.x.consonant -%}
   {%- assign gridY = basic.grid.y.consonant -%}
   {%- assign shape = basic.shape.nasal -%}
