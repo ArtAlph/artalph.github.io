@@ -44,6 +44,6 @@ styles: ["grid", "gridCont", "activeFilled", "text", "teeth", "copyright", "shap
 {%- if consonant.voiced %}
 {{ site.data.diacritic["voiced.svg"].sign }}
 {%- endif %}
-<use xlink:href="#{{ consonant.class.main }}_mode" href="#{{ consonant.class.main }}_mode" class="in" transform="{{ site.data.mode_transform[consonant.mode_transform] }}"/>
+<use xlink:href="#{{ site.data.mode[mode_name].title }}_mode" href="#{{ site.data.mode[mode_name].title }}_mode" class="in" transform="{{ site.data.mode_transform[consonant.mode_transform] }}"/>
 {% include copyright.html -%}
 </svg> 
