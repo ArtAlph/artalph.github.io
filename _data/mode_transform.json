@@ -1,0 +1,13 @@
+{
+  "bilabial": "translate(26 59.8) scale(0.14)",
+  "labiodental": "translate(37.5 53)  scale(0.157) rotate(22.9)",
+  "dental": "translate(42 64) rotate(-55) scale(0.13)",
+  "alveolar": "translate(52.0 31.4) rotate(-15) scale(0.13)",
+  "postalveolar": "translate(62.3 24.98) scale(0.13)",
+  "retroflex": "translate(87.3 24.98) scale(0.13)",
+  "palatal": "translate(108.7 21.5) rotate(15) scale(0.13)",
+  "velar": "translate(141.1 18.1) rotate(35) scale(0.13)",
+  "uvular": "translate(159.6 29.4) rotate(45) scale(0.13)",
+  "pharyngeal": "translate(180.3 80) rotate(90) scale(0.13)",
+  "glottal": "translate(180.3 103) rotate(90) scale(0.14)"
+}
