@@ -5,4 +5,7 @@
 {%- for st in pagestyles %}
   {{ site.data.style[st] }}
 {%- endfor %}
+{%- if layout.consonant.voiced %}
+  {{ site.data.style.crossLine }}
+{%- endif %}
 </style>
