@@ -81,7 +81,7 @@ PDF file with the first version of {{ site.longtitle }} is [here](/docs/sonina.a
 </tr>
 
 <tr>
-<td>8</td><th>{% include figure.html url="signs/mods/figures/nothing.svg" title="Lateral approximant" %}</th>
+<td>8</td><th>{% include figure.html url="signs/mods/figures/lateral.svg" title="Lateral approximant" %}</th>
 <td></td><td></td><td></td><td>{% include figure.html url="signs/consonants/l.svg" title="l" %}</td><td></td><td>{% include figure.html url="signs/consonants/ɭ.svg" title="ɭ" %}</td><td>{% include figure.html url="signs/consonants/ʎ.svg" title="ʎ" %}</td><td>{% include figure.html url="signs/consonants/ʟ.svg" title="ʟ" %}</td><td></td><td></td><td></td>
 </tr>
 </table>
