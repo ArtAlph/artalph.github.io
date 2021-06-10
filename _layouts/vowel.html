@@ -3,7 +3,8 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 ---
 {%- assign basic = site.data.basic -%}
 {%- assign vowel = site.data.vowel[page.name] -%}
-{%- if vowel.class.nasal %}
+{%- assign nasal = vowel.class.nasal -%}
+{%- if nasal %}
 {%- assign gridX = basic.grid.x.nasalVowel -%}
 {%- assign gridY = basic.grid.y.nasalVowel -%}
 {%- else %}
@@ -20,8 +21,8 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
   </mask>
 </defs>
 <path d="M{{ gridX }},{{ gridY }}h100m-100,25h100m-100,25h100m-100,25h100m-100,25h100m-100,-100v100m25,-100v100m25,-100v100m25,-100v100m25,-100v100" class="grid"/>
-{%- if vowel.class.nasal %}{{ site.data.basic.teeth.nasalVowel }}{% else %}{{ site.data.basic.teeth.vowel }}{% endif %}
-<path d="{% if vowel.class.nasal %}{{ site.data.basic.shape.nasalVowel }}{% else %}{{ site.data.basic.shape.vowel }}{% endif %}" mask="url(#{{ vowel.title }}_hole)" class="shape"/>
+{%- if nasal %}{{ site.data.basic.teeth.nasalVowel }}{% else %}{{ site.data.basic.teeth.vowel }}{% endif %}
+<path d="{% if nasal %}{{ site.data.basic.shape.nasalVowel }}{% else %}{{ site.data.basic.shape.vowel }}{% endif %}" mask="url(#{{ vowel.title }}_hole)" class="shape"/>
 <{%- include lips.html %} class="lips"/>
 <path d="{{ site.data.tongue[vowel.tongue] }}" class="activeFilled"/>
 {% include copyright.html -%}
