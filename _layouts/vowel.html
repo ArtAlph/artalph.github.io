@@ -21,8 +21,8 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
   </mask>
 </defs>
 <path d="M{{ gridX }},{{ gridY }}h100m-100,25h100m-100,25h100m-100,25h100m-100,25h100m-100,-100v100m25,-100v100m25,-100v100m25,-100v100m25,-100v100" class="grid"/>
-{%- if nasal %}{{ site.data.basic.teeth.nasalVowel }}{% else %}{{ site.data.basic.teeth.vowel }}{% endif %}
-<path d="{% if nasal %}{{ site.data.basic.shape.nasalVowel }}{% else %}{{ site.data.basic.shape.vowel }}{% endif %}" mask="url(#{{ vowel.title }}_hole)" class="shape"/>
+{%- if nasal %}{{ basic.teeth.nasalVowel }}{% else %}{{ basic.teeth.vowel }}{% endif %}
+<path d="{% if nasal %}{{ basic.shape.nasalVowel }}{% else %}{{ basic.shape.vowel }}{% endif %}" mask="url(#{{ vowel.title }}_hole)" class="shape"/>
 <{%- include lips.html %} class="lips"/>
 <path d="{{ site.data.tongue[vowel.tongue] }}" class="activeFilled"/>
 {% include copyright.html -%}
