@@ -13,6 +13,8 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 {%- endif %}
 {% include opening.html -%}
 <title>{{ vowel.title }}</title>
+{% include creator.html -%}
+{% include license.html -%}
 {% include style.html -%}
 <defs>
   <mask id="{{ vowel.title }}_hole">
