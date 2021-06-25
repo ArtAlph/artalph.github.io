@@ -7,6 +7,8 @@ gridY: "25"
 {%- assign diacritic = site.data.diacritic[page.name] -%}
 {% include opening.html -%}
 <title>{{ diacritic.title }}</title>
+{% include creator.html -%}
+{% include license.html -%}
 {% include style.html -%}
 {%- if diacritic.defs -%}
 <defs>
