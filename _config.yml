@@ -84,9 +84,9 @@ defaults:
 plugins:
   - jekyll-sitemap
 
-highlight: false             # use code and table highlighting
-highlighter: none
-markdown: kramdown
+#highlight: false             # use code and table highlighting
+#highlighter: none
+#markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
     disable : true
