@@ -1,0 +1,52 @@
+---
+layout: compress
+styles: ["grid", "gridCont", "activeFilled", "text", "teeth", "copyright", "shape", "mode", "out"]
+---
+{%- assign basic = site.data.basic -%}
+{%- assign consonant = site.data.consonant[page.name] -%}
+{%- assign voiced = consonant.voiced -%}
+{%- assign mode_name = consonant.mode -%}
+{%- assign mode_styles = site.data.mode[mode_name].styles -%}
+{%- if consonant.approximant %}
+  {%- assign gridX = basic.grid.x.approximant -%}
+  {%- assign gridY = basic.grid.y.approximant -%}
+  {%- assign shape = basic.shape.approximant -%}
+  {%- assign alveola = basic.alveola.default -%}
+{%- elsif consonant.labialapproximant %}
+  {%- assign gridX = basic.grid.x.approximant -%}
+  {%- assign gridY = basic.grid.y.approximant -%}
+  {%- assign shape = basic.shape.labialapproximant -%}
+  {%- assign alveola = basic.alveola.default -%}
+{%- elsif consonant.nasal %}
+  {%- assign gridX = basic.grid.x.consonant -%}
+  {%- assign gridY = basic.grid.y.consonant -%}
+  {%- assign shape = basic.shape.nasal -%}
+  {%- assign alveola = basic.alveola.nasal -%}
+{%- else %}
+  {%- assign gridX = basic.grid.x.consonant -%}
+  {%- assign gridY = basic.grid.y.consonant -%}
+  {%- assign shape = basic.shape.consonant -%}
+  {%- assign alveola = basic.alveola.default -%}
+{%- endif %}
+{% include opening.html -%}
+<title>{{ consonant.title }}</title>
+{% include creator.html -%}
+{% include license.html -%}
+{% include style.html -%}
+<defs>
+  {%- if consonant.voiced %}
+  {{ site.data.diacritic["voiced.svg"].defs }}
+  {%- endif %}
+  {% include mode_symbol.html -%}
+</defs>
+<path d="M{{ gridX }},{{ gridY }}h100m-100,25h100m-100,25h100m-100,25h100m-100,25h100m-100,-100v100m25,-100v100m25,-100v100m25,-100v100m25,-100v100" class="grid"/>
+{{ basic.teeth.consonant }}
+{{ alveola }}
+<path d="{{ shape }}" class="shape"/>
+<path d="{{ site.data.tongue[consonant.tongue] }}" class="activeFilled"/>
+{%- if consonant.voiced %}
+{{ site.data.diacritic["voiced.svg"].sign }}
+{%- endif %}
+<use xlink:href="#{{ site.data.mode[mode_name].title }}_mode" href="#{{ site.data.mode[mode_name].title }}_mode" class="in" transform="{{ site.data.mode_transform[consonant.mode_transform] }}"/>
+{% include copyright.html -%}
+</svg> 

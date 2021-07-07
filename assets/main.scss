@@ -11,4 +11,17 @@ body {
   height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  background-color: #fff; /* #fdfdfd */
+}
+
+.sign {
+  display: inline-block;
+}
+
+.hcenter {
+  text-align: center;
+}
+
+.bottomcap caption {
+  caption-side: bottom;
 }

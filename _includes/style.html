@@ -1,0 +1,11 @@
+<style type="text/css">
+{%- for st in layout.styles %}
+  {{ site.data.style[st] }}
+{%- endfor %}
+{%- for st in pagestyles %}
+  {{ site.data.style[st] }}
+{%- endfor %}
+{%- for st in mode_styles %}
+  {{ site.data.style[st] }}
+{%- endfor %}
+</style>
