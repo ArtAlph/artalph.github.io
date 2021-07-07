@@ -1,0 +1,40 @@
+{
+  "shape": {
+    "vowel": "M183,178c20,-55 10,-125-25,-150s-80,-20-100,0s-25,70 0,100s80,25 100,0",
+    "nasalVowel": "M156 35c-22.25-16-80-20-100 0s-25 70 0 100s80 25 100 0M183 178c20-55 9-121-13-145s-74-36-117-16c-49 24-50 38-18 36",
+    "consonant": "M180,175v-150h-140v35M150,100v25h-110v-35",
+    "nasal": "M165,25h-125v35M180,175v-165h-145M35,10C10,52 10,52 30,52M150,100v25h-110v-35",
+    "approximant": "M180,175v-150h-130a10,10 0 0 0-10,10v25M150,100v15a10,10 0 0 1-10,10h-90a10,10 0 0 1-10,-10v-25",
+    "labialapproximant": "M180,175v-150h-130a10,10 0 0 0-10,10v25M150,100v15a10,10 0 0 1-10,10h-90a10,10 0 0 1-10,-10v-25M16.7,75a15,15 0 1,1 30,0a15,15 0 1,1-30,0z"
+  },
+  "grid": {
+    "x": {
+      "consonant": "50.25",
+      "approximant": "50.25",
+      "vowel": "58.25",
+      "nasalVowel": "56.25"
+    },
+    "y": {
+      "consonant": "25",
+      "approximant": "25",
+      "vowel": "28",
+      "nasalVowel": "35"
+    }
+  },
+  "teeth": {
+    "consonant": "<g class=\"teeth\"><polygon points=\"50,22.5 50,67 51,67 57,22.5\"/><polygon points=\"50,127.5 50,83 51,83 57,127.5\"/></g>",
+    "vowel": "<g class=\"teeth\"><polygon points=\"58,25 58,66 59,66 65,25\"/><polygon points=\"58,131 58,90 59,90 65,131\"/></g>",
+    "nasalVowel": "<g class=\"teeth\"><polygon points=\"56,32.05 56,71.05 57,71.05 63,32.05\"/><polygon points=\"56,138.05 56,99.05 57,99.05 63,138.05\"/></g>",
+    "fadedConsonant": "<g class=\"fadedTeeth\"><polygon points=\"50,22.5 50,67 51,67 57,22.5\"/><polygon points=\"50,127.5 50,83 51,83 57,127.5\"/></g>",
+    "fadedVowel": "<g class=\"fadedTeeth\"><polygon points=\"58,25 58,66 59,66 65,25\"/><polygon points=\"58,131 58,90 59,90 65,131\"/></g>",
+    "fadedNasalVowel": "<g class=\"fadedTeeth\"><polygon points=\"56,32.05 56,73.05 57,73.05 63,32.05\"/><polygon points=\"56,138.05 56,97.05 57,97.05 63,138.05\"/></g>"
+  },
+  "alveola": {
+    "default": "<path transform=\"translate(54.5 27.8) scale(0.33)\" d=\"M64,0C48,4 46,16 32,16S16,4 0,0z\" class=\"teeth\"/><path transform=\"translate(160.5 27.8) scale(0.4)\" d=\"M32,0C20,0 26,32 16,32S12,0 0,0z\" class=\"teeth\"/>",
+    "nasal": "<path transform=\"translate(54.5 27.8) scale(0.33)\" d=\"M64 0c-16 4-18 16-32 16s-16-12-32-16z\" class=\"teeth\"/><path transform=\"translate(153.5 27.8) scale(0.4)\" d=\"M32 0c-12 0-6 32-16 32 s-4-32-16-32z\" class=\"teeth\"/>",
+    "faded": "<path transform=\"translate(54.5 27.8) scale(0.33)\" d=\"M64,0C48,4 46,16 32,16S16,4 0,0z\" class=\"fadedTeeth\"/><path transform=\"translate(160.5 27.8) scale(0.4)\" d=\"M32,0C20,0 26,32 16,32S12,0 0,0z\" class=\"fadedTeeth\"/>",
+    "fadedNasal": "<path transform=\"translate(54.5 27.8) scale(0.33)\" d=\"M64 0c-16 4-18 16-32 16s-16-12-32-16z\" class=\"fadedTeeth\"/><path transform=\"translate(153.5 27.8) scale(0.4)\" d=\"M32 0c-12 0-6 32-16 32 s-4-32-16-32z\" class=\"fadedTeeth\"/>",
+    "nasalVowel": "<ellipse cx=\"159\" cy=\"44\" rx=\"4.6\" ry=\"12.3\" transform=\"rotate(-16 159 44)\" class=\"teeth\"/>",
+    "fadedNasalVowel": "<ellipse cx=\"159\" cy=\"44\" rx=\"4.6\" ry=\"12.3\" transform=\"rotate(-16 159 44)\" class=\"fadedTeeth\"/>"
+  }
+}

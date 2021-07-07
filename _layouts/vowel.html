@@ -1,0 +1,32 @@
+---
+layout: compress
+styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright", "shape"]
+---
+{%- assign basic = site.data.basic -%}
+{%- assign vowel = site.data.vowel[page.name] -%}
+{%- assign nasal = vowel.class.nasal -%}
+{%- if nasal %}
+{%- assign gridX = basic.grid.x.nasalVowel -%}
+{%- assign gridY = basic.grid.y.nasalVowel -%}
+{%- else %}
+{%- assign gridX = basic.grid.x.vowel -%}
+{%- assign gridY = basic.grid.y.vowel -%}
+{%- endif %}
+{% include opening.html -%}
+<title>{{ vowel.title }}</title>
+{% include creator.html -%}
+{% include license.html -%}
+{% include style.html -%}
+<defs>
+  <mask id="{{ vowel.title }}_hole">
+    <rect width="100%" height="100%" fill="white"/>
+    <{%- include lips.html %}{% if nasal %} transform="translate(-2 7)"{% endif %} fill="black" stroke-width="0"/>
+  </mask>
+</defs>
+<path d="M{{ gridX }},{{ gridY }}h100m-100,25h100m-100,25h100m-100,25h100m-100,25h100m-100,-100v100m25,-100v100m25,-100v100m25,-100v100m25,-100v100" class="grid"/>
+{%- if nasal %}{{ basic.teeth.nasalVowel }}{% else %}{{ basic.teeth.vowel }}{% endif %}
+<path d="{% if nasal %}{{ basic.shape.nasalVowel }}{% else %}{{ basic.shape.vowel }}{% endif %}" mask="url(#{{ vowel.title }}_hole)" class="shape"/>
+<{%- include lips.html %}{% if nasal %} transform="translate(0 7)"{% endif %} class="lips"/>
+<path d="{{ site.data.tongue[vowel.tongue] }}"{% if nasal %} transform="translate(-2 7)"{% endif %} class="activeFilled"/>
+{% include copyright.html -%}
+</svg>

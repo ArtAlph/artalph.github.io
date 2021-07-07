@@ -1,1 +1,1 @@
-# [PPA – Pictographic Phonetic Alphabet](https://stomabet.github.io)
+# [PPA – Pictographic Phonetic Alphabet](https://ppa4ipa.github.io)

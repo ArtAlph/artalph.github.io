@@ -1,12 +1,13 @@
 theme: minima
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: https://stomabet.github.io # "http://artalph.com" # the base hostname & protocol for your site
+url: https://ppa4ipa.com # the base hostname & protocol for your site
+domain: ppa4ipa.com
 permalink: /:title
 email: soninas@gmail.com
 author: Snejina Sonina
-twitter_username: artalph
-github_username:  stomabet
+twitter_username: ppa4ipa
+github_username:  ppa4ipa
 
 title: PPA
 longtitle: Pictographic Phonetic Alphabet
@@ -35,6 +36,55 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "post"
+  -
+    scope:
+      path: "signs"
+    values:
+      layout: null
+      sitemap:
+        exclude: "yes" # Exclude from sitemap.xml
+  -
+    scope:
+      path: "signs/consonants"
+    values:
+      layout: consonant
+  -
+    scope:
+      path: "signs/vowels"
+    values:
+      layout: vowel
+  -
+    scope:
+      path: "signs/mods/figures"
+    values:
+      layout: mode_figure
+  -
+    scope:
+      path: "signs/mods/signs"
+    values:
+      layout: mode_sign
+  -
+    scope:
+      path: "signs/diacritics"
+    values:
+      layout: diacritic
+  -
+    scope:
+      path: "404.html" # Exclude from sitemap.xml
+    values:
+      sitemap:
+        exclude: "yes"
+  -
+    scope:
+      path: "README.md" # Exclude from sitemap.xml
+    values:
+      sitemap:
+        exclude: "yes"
 
 plugins:
   - jekyll-sitemap
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true

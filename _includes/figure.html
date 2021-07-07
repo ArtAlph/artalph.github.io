@@ -1,0 +1,6 @@
+<figure class="{{ include.class | default: "sign" }}">
+   <a href="{{ include.url | default: "signs/vowels/u.svg" }}">
+   <img src="{{ include.url | default: "signs/vowels/u.svg" }}" width="{{ include.width | default: 80 }}" height="{{ include.height | default: 80 }}" alt="{{ include.title }}" title="{{ include.title }}"/>
+   </a>
+   {%- if include.caption != false %}<figcaption class="hcenter">{{ include.title }}</figcaption>{% endif %}
+</figure>
