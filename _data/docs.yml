@@ -1,19 +1,15 @@
-- title: Getting Started
-  docs:
-  - "/"
-
 - title: Main features
   docs:
-  - features
+  - /features
 
 - title: PPA signs
   docs:
-  - signs
+  - /signs
 
 - title: Applications
   docs:
-  - apps
+  - /apps
 
 - title: Contacts
   docs:
-  - contacts
+  - /contacts
