@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: main
 title: PPA - Pictographic Phonetic Alphabet
 sectionid: home
 ---
