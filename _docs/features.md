@@ -1,7 +1,7 @@
 ---
 title: Main features
 description: Description of Pictographic Phonetic Alphabet
-permalink: /docs/features
+permalink: /docs/features/
 ---
 
 # Description of {{ site.longtitle }}
