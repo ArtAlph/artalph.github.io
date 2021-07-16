@@ -1,7 +1,5 @@
 ---
-layout: page
 title: PPA signs
-order: 3
 ---
 
 ## Reproduction of {{ site.title }}
