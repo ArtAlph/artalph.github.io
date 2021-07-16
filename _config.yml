@@ -13,7 +13,8 @@ title: PPA
 longtitle: Pictographic Phonetic Alphabet
 
 description: PPA is a system of phonetic signs that includes symbols functioning as didactic software and characters operating as a font.
-
+git_address: https://github.com/artalph/artalph.github.io
+git_edit_address: https://github.com/artalph/artalph.github.io/blob/master
 # header_pages:
 #   #- index.md
 #   - features.md
