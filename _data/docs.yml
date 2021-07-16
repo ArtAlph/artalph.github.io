@@ -1,15 +1,7 @@
-- title: Main features
+- title: PPA
   docs:
-  - /features
-
-- title: PPA signs
-  docs:
-  - /signs
-
-- title: Applications
-  docs:
-  - /apps
-
-- title: Contacts
-  docs:
-  - /contacts
+  - home
+  - features
+  - signs
+  - apps
+  - contacts
