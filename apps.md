@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: main
 title: Applications
 sectionid: apps
 ---
