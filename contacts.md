@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: main
 title: Contacts
 sectionid: contacts
 ---
