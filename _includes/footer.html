@@ -3,14 +3,14 @@
 
         <p class="text-center">
             © 2013-{{ 'now' | date: "%Y" }}
-            {%- if site.author -%}
+            {%- if site.author %}
               {{ site.author | escape }}
-            {%- else -%}
+            {%- else %}
               {{ site.title | escape }}
-            {%- endif -%}
-            {%- if site.email -%}
+            {%- endif %}
+            {%- if site.email %}
             <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-            {%- endif -%}
+            {%- endif %}
             <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/3.0/"><img 
             alt="Creative Commons License" style="border-width:0" 
             src="https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc-nd.svg"></a> |
