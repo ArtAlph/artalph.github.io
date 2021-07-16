@@ -3,7 +3,7 @@ bootwatch: sandstone
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: https://ppa4ipa.com # the base hostname & protocol for your site
 domain: ppa4ipa.com
-permalink: /:title
+#permalink: /:title
 email: soninas@gmail.com
 author: Snejina Sonina
 twitter_username: ppa4ipa
@@ -17,12 +17,12 @@ description: PPA is a system of phonetic signs that includes symbols functioning
 git_address: https://github.com/ArtAlph/artalph.github.io
 git_edit_address: https://github.com/ArtAlph/artalph.github.ioo/blob/master
 
-header_pages:
-  #- index.md
-  - features.md
-  - signs.md
-  - apps.md
-  - contacts.md
+# header_pages:
+#   #- index.md
+#   - features.md
+#   - signs.md
+#   - apps.md
+#   - contacts.md
   
 sass:
   style: compressed
@@ -34,11 +34,11 @@ compress_html:
     envs: [local]
 
 defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "post"
+#   -
+#     scope:
+#       path: "" # an empty string here means all files in the project
+#     values:
+#       layout: "post"
   -
     scope:
       path: "signs"
