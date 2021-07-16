@@ -1,5 +1,6 @@
 ---
 title: PPA signs
+permalink: /signs
 ---
 
 ## Reproduction of {{ site.title }}
