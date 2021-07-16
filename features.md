@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: main
 title: Main features
 description: Description of Pictographic Phonetic Alphabet
 sectionid: features
