@@ -2,7 +2,7 @@
 layout: page
 title: Main features
 description: Description of Pictographic Phonetic Alphabet
-order: 2
+sectionid: features
 ---
 
 # Description of {{ site.longtitle }}
