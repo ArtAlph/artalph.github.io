@@ -1,5 +1,5 @@
 remote_theme: aksakalli/jekyll-doc-theme@gh-pages #theme: minima
-
+bootswatch: sandstone
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: https://ppa4ipa.com # the base hostname & protocol for your site
 domain: ppa4ipa.com
