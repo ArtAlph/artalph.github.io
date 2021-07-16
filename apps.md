@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Applications
-order: 4
+sectionid: apps
 ---
 
 See the article “A new type of phonetic alphabet and its applications in language teaching: from practical 
