@@ -1,7 +1,5 @@
 ---
-layout: page
 title: PPA - Pictographic Phonetic Alphabet
-order: 1
 ---
 
 {{ site.title }} is a system of phonetic **signs** that includes **symbols** functioning as didactic software and **characters**
